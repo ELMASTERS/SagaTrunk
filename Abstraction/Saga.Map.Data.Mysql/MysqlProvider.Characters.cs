@@ -1167,38 +1167,6 @@ namespace Saga.Map.Data.Mysql
                 if (reader != null) reader.Close();
             }
         }
-        bool SaveSkillsEx(MySqlConnection connection, IInfoProvider2 dbq, bool continueOnError)
-        {
-            MySqlDataReader reader = null;
-            IDataSkillCollection collection = dbq.createSkillCollection();
-
-            try
-            {
-                  //LOAD ALL SKILL INFORMATION
-                byte[] buffer = new byte[64];
-                for (int i = 0; i < 16; i++)
-                {
-                    Skill skill = collection.SkillCollection[i];
-                    if (skill != null)
-                        Array.Copy(BitConverter.GetBytes(skill.info.skillid), 0, buffer, i * 4, 4);
-                }
-
-                MySqlCommand command = new MySqlCommand(_query_90, connection);
-                command.Parameters.AddWithValue("CharId", collection.CharacterId);
-                command.Parameters.AddWithValue("SkillId", buffer);
-                return command.ExecuteNonQuery() > 0;
-            }
-            catch (Exception e)
-            {
-                __dbtracelog.WriteError("Database", e.Message);
-                return false;
-            }
-            finally
-            {
-                //ALWAYS CLOSE THE READ RESULT
-                if (reader != null) reader.Close();
-            }
-        }
         bool ExistsSkillsEx(MySqlConnection connection, IInfoProvider2 dbq)
         {
             IDataCharacter character = dbq.createDataCharacter();

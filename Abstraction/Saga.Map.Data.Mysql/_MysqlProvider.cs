@@ -827,8 +827,7 @@ namespace Saga.Map.Data.Mysql
                 SaveWeaponsEx(connection, dbq);         //Save weapon information
                 SaveZoneEx(connection, dbq);            //Save zone information
                 SaveQuestEx(connection, dbq);           //Save quest information
-                SaveSpecialSkillsEx(connection, dbq);   //Save special skill information  
-                SaveSkillsEx(connection, dbq);   //Save learned skill information [DanielArt]            
+                SaveSpecialSkillsEx(connection, dbq);   //Save special skill information            
                                               
                 transaction.Commit();
                 return true;
@@ -876,7 +875,7 @@ namespace Saga.Map.Data.Mysql
                              & LoadWeaponsEx(connection, dbq, continueOnError)        //Load weapon information
                              & LoadZoneEx(connection, dbq, continueOnError)           //Load zone information
                              & LoadQuestEx(connection, dbq, continueOnError)          //Load quest information
-                             & LoadSkillsEx(connection, dbq, continueOnError)         //Load normal skills
+                             & LoadSkillsEx(connection, dbq, continueOnError)         //Load normal skills [DanielArt
                              & LoadSpecialSkillsEx(connection, dbq, continueOnError)  //Load special skill information
                              & LoadSkillsEx(connection, dbq, continueOnError)  //Load learned skill information
                              & LoadFriendlistEx(connection, dbq)                      //Load friendlist information
@@ -930,7 +929,6 @@ namespace Saga.Map.Data.Mysql
                 if (!ExistsZoneEx(connection, dbq)) InsertZoneEx(connection, dbq);
                 if (!ExistsQuestEx(connection, dbq)) InsertQuestEx(connection, dbq);
                 if (!ExistsSpecialSkillsEx(connection, dbq)) InsertSpecialSkillsEx(connection, dbq);
-                if (!ExistsSkillsEx(connection, dbq)) InsertNewSkill(connection, dbq);
 
                 transaction.Commit();
                 return true;
@@ -982,7 +980,6 @@ namespace Saga.Map.Data.Mysql
                              & InsertZoneEx(connection, dbq)
                              & InsertQuestEx(connection, dbq)
                              & InsertSpecialSkillsEx(connection, dbq);
-                             & InsertNewSkill(connection, dbq);
 
                 transaction.Commit();
                 return success;

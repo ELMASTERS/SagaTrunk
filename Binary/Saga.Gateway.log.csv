@@ -1,0 +1,94 @@
+#############################################################################
+Saga Gateway Server starting on: 25/04/2015 12:35:36 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 16183296
+OS Bit Version: 64 Bit
+#############################################################################
+"Saga.Gateway.exe",Information,0,"Sending header token",,,,,,,
+Network: Connection accepted from: 190.166.114.111:61407
+"Saga.Gateway.exe",Information,0,"Header Recieved from 190.166.114.111:61407",,,,,,,
+"Saga.Gateway.exe",Information,0,"Key Recieved from 190.166.114.111:61407",,,,,,,
+"Saga.Gateway.exe",Information,0,"GUID Recieved from 190.166.114.111:61407",,,,,,,
+"Saga.Gateway.exe",Information,0,"Identify Recieved from 190.166.114.111:61407",,,,,,,
+"Saga.Gateway.exe",Information,0,"Set session-id 1 received from: 190.166.114.111:61407",,,,,,,
+Network: Connection closed from: 190.166.114.111:61407
+Network: Connection accepted from: 190.166.114.111:61409
+"Saga.Gateway.exe",Information,0,"Header Recieved from 190.166.114.111:61409",,,,,,,
+"Saga.Gateway.exe",Information,0,"Key Recieved from 190.166.114.111:61409",,,,,,,
+"Saga.Gateway.exe",Information,0,"GUID Recieved from 190.166.114.111:61409",,,,,,,
+"Saga.Gateway.exe",Information,0,"Identify Recieved from 190.166.114.111:61409",,,,,,,
+"Saga.Gateway.exe",Information,0,"Set session-id 2 received from: 190.166.114.111:61409",,,,,,,
+Network: Connection closed from: 190.166.114.111:61409
+Network: Connection accepted from: 189.171.59.216:26781
+"Saga.Gateway.exe",Information,0,"Header Recieved from 189.171.59.216:26781",,,,,,,
+"Saga.Gateway.exe",Information,0,"Key Recieved from 189.171.59.216:26781",,,,,,,
+"Saga.Gateway.exe",Information,0,"GUID Recieved from 189.171.59.216:26781",,,,,,,
+"Saga.Gateway.exe",Information,0,"Identify Recieved from 189.171.59.216:26781",,,,,,,
+"Saga.Gateway.exe",Information,0,"Set session-id 3 received from: 189.171.59.216:26781",,,,,,,
+Network: Connection accepted from: 190.166.114.111:61413
+"Saga.Gateway.exe",Information,0,"Header Recieved from 190.166.114.111:61413",,,,,,,
+"Saga.Gateway.exe",Information,0,"Key Recieved from 190.166.114.111:61413",,,,,,,
+"Saga.Gateway.exe",Information,0,"GUID Recieved from 190.166.114.111:61413",,,,,,,
+"Saga.Gateway.exe",Information,0,"Identify Recieved from 190.166.114.111:61413",,,,,,,
+"Saga.Gateway.exe",Information,0,"Set session-id 4 received from: 190.166.114.111:61413",,,,,,,
+Network: Connection closed from: 189.171.59.216:26781
+Network: Connection closed from: 127.0.0.1:64003
+Network: Connection closed from: 190.166.114.111:61413
+Network: Connection closed from: 127.0.0.1:64003
+Network: Connection accepted from: 189.171.59.216:26914
+"Saga.Gateway.exe",Information,0,"Header Recieved from 189.171.59.216:26914",,,,,,,
+"Saga.Gateway.exe",Information,0,"Key Recieved from 189.171.59.216:26914",,,,,,,
+"Saga.Gateway.exe",Information,0,"GUID Recieved from 189.171.59.216:26914",,,,,,,
+"Saga.Gateway.exe",Information,0,"Identify Recieved from 189.171.59.216:26914",,,,,,,
+"Saga.Gateway.exe",Information,0,"Set session-id 5 received from: 189.171.59.216:26914",,,,,,,
+Network: Connection accepted from: 190.166.114.111:61447
+"Saga.Gateway.exe",Information,0,"Header Recieved from 190.166.114.111:61447",,,,,,,
+"Saga.Gateway.exe",Information,0,"Key Recieved from 190.166.114.111:61447",,,,,,,
+"Saga.Gateway.exe",Information,0,"GUID Recieved from 190.166.114.111:61447",,,,,,,
+"Saga.Gateway.exe",Information,0,"Identify Recieved from 190.166.114.111:61447",,,,,,,
+"Saga.Gateway.exe",Information,0,"Set session-id 6 received from: 190.166.114.111:61447",,,,,,,
+#############################################################################
+Saga Gateway Server starting on: 25/04/2015 01:01:45 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 16183296
+OS Bit Version: 64 Bit
+#############################################################################
+"Saga.Gateway.exe",Information,0,"Sending header token",,,,,,,
+Network: Connection accepted from: 189.171.59.216:27258
+"Saga.Gateway.exe",Information,0,"Header Recieved from 189.171.59.216:27258",,,,,,,
+"Saga.Gateway.exe",Information,0,"Key Recieved from 189.171.59.216:27258",,,,,,,
+"Saga.Gateway.exe",Information,0,"GUID Recieved from 189.171.59.216:27258",,,,,,,
+"Saga.Gateway.exe",Information,0,"Identify Recieved from 189.171.59.216:27258",,,,,,,
+"Saga.Gateway.exe",Information,0,"Set session-id 1 received from: 189.171.59.216:27258",,,,,,,
+Network: Connection closed from: 189.171.59.216:27258
+Network: Connection closed from: 127.0.0.1:64003
+#############################################################################
+Saga Gateway Server starting on: 25/04/2015 02:02:39 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 16220160
+OS Bit Version: 64 Bit
+#############################################################################
+"Saga.Gateway.exe",Information,0,"Sending header token",,,,,,,
+#############################################################################
+Saga Gateway Server starting on: 25/04/2015 02:03:58 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 16203776
+OS Bit Version: 64 Bit
+#############################################################################
+"Saga.Gateway.exe",Information,0,"Sending header token",,,,,,,
+Network: Connection accepted from: 189.171.59.216:28581
+"Saga.Gateway.exe",Information,0,"Header Recieved from 189.171.59.216:28581",,,,,,,
+"Saga.Gateway.exe",Information,0,"Key Recieved from 189.171.59.216:28581",,,,,,,
+"Saga.Gateway.exe",Information,0,"GUID Recieved from 189.171.59.216:28581",,,,,,,
+"Saga.Gateway.exe",Information,0,"Identify Recieved from 189.171.59.216:28581",,,,,,,
+"Saga.Gateway.exe",Information,0,"Set session-id 1 received from: 189.171.59.216:28581",,,,,,,
+Network: Connection closed from: 189.171.59.216:28581
+Network: Connection closed from: 127.0.0.1:64003

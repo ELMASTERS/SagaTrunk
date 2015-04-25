@@ -1,0 +1,2630 @@
+#############################################################################
+Saga Map Server starting on: 25/04/2015 12:35:07 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 9744384
+OS Bit Version: 32 Bit
+#############################################################################
+XmlSections: warning   Section Saga.Manager.ConsoleSettings was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.NetworkSettings was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.WorldTasks was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Database was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Quest was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Scripting was not found using default manager/factory
+Calling initialize-event on factories & managers: verbose   HostContext
+Calling beforequery-event on factories & managers: verbose   HostContext
+Calling afterquery-event on factories & managers: verbose   HostContext
+Calling onload-event on factories & managers: verbose   HostContext
+database: ïnfo      Populating database pool with connections
+ScriptCompiler: verbose   Starting to compile scripting assembly: ../Saga.Scripting
+ScriptCompiler: verbose   Generate compile parameters
+ScriptCompiler: ïnfo      Scripts compiled no errors
+ScriptCompiler: warning   scripting assembly was compiled
+ScriptCompiler: verbose   Starting to compile scripting assembly: 158F4F343726CA477234AE4407241009, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Event Manager: verbose   Loading event information from: ~/eventlist.csv using format text/csv
+AdditionFactory: warning   Method not found Saga.Spells.Additions.ADDITION_SPPARTYRECOVERAMOUNT
+AdditionFactory: warning   Method not found Saga.Spells.Additions.ADDITION_MAGICALATTACKMAX
+AdditionFactory: verbose   Loading addition information from: ~/Addition_t.xml using format text/xml
+PortalFactory: verbose   Loading portal information from: ~/portal_data.csv using format text/csv
+SpellFactory: verbose   Loading spell information from: ~/spell_data.xml using format text/xml
+SpellFactory: verbose   Clear method lookup table
+StatusByLevelFactory: verbose   Loading statusbylevel information from: ~/experience.csv using format text/csv
+WarpFactory: verbose   Loading warp information from: ~/warp_data.csv using format text/csv
+ZoneFactory: verbose   Loading zone information from: ~/zone_data.csv using format text/csv
+"Saga.Map.exe",Error,0,"Cannot load heightmap from file: C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/heightmaps\alf_f00.hmap",,,,,,,
+ItemFactory: verbose   Loading item information from: ~/item_data.xml using format text/xml
+WeaponFactory: verbose   Loading weapon information from: ~/weapon_data.csv using format text/csv
+TemplateFactory: verbose   Loading portal information from: ~/npc_templates.csv using format text/csv
+TemplateFactory: verbose   Loading portal information from: ~/item_templates.csv using format text/csv
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Adventurers Training Center.csv using format text/csv
+MapObject registered: FFFE0002 MapObject id:1173: DEBUG
+MapObject registered: 00010002 MapObject id:1174: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1175: DEBUG
+MapObject registered: 0001FFFB MapObject id:1270: DEBUG
+MapObject registered: 00010000 MapObject id:1271: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/adventures_trainingsground.csv using format text/csv
+MapObject registered: 00000002 MapObject id:1145: DEBUG
+MapObject registered: 00040000 MapObject id:1064: DEBUG
+MapObject registered: FFFC0002 MapObject id:1149: DEBUG
+MapObject registered: 00040001 MapObject id:1146: DEBUG
+MapObject registered: FFFFFFFB MapObject id:1063: DEBUG
+MapObject registered: 0004FFFE MapObject id:1139: DEBUG
+MapObject registered: 00040002 MapObject id:1147: DEBUG
+MapObject registered: FFFD0002 MapObject id:1140: DEBUG
+MapObject registered: 00020004 MapObject id:1148: DEBUG
+MapObject registered: 00030004 MapObject id:1213: DEBUG
+MapObject registered: 0003FFFF MapObject id:1213: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim Forest.csv using format text/csv
+MapObject registered: FFFFFFF3 MapObject id:1107: DEBUG
+MapObject registered: FFFFFFF3 MapObject id:1109: DEBUG
+MapObject registered: FFFFFFF4 MapObject id:1235: DEBUG
+MapObject registered: 00010000 MapObject id:1248: DEBUG
+MapObject registered: FFFAFFF8 MapObject id:1309: DEBUG
+MapObject registered: FFFF0007 MapObject id:1310: DEBUG
+MapObject registered: 0009FFF7 MapObject id:1311: DEBUG
+MapObject registered: 00040000 MapObject id:1312: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim Poro Island.csv using format text/csv
+MapObject registered: 0001FFF9 MapObject id:1249: DEBUG
+MapObject registered: 0002FFF9 MapObject id:1108: DEBUG
+MapObject registered: 0002FFF9 MapObject id:1236: DEBUG
+MapObject registered: 0002FFFB MapObject id:1237: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim.csv using format text/csv
+MapObject registered: 00010000 MapObject id:1015: DEBUG
+MapObject registered: 0002FFFF MapObject id:1016: DEBUG
+MapObject registered: 0001FFFE MapObject id:1017: DEBUG
+MapObject registered: 0001FFFE MapObject id:1017: DEBUG
+MapObject registered: 0001FFFE MapObject id:1018: DEBUG
+MapObject registered: 00000002 MapObject id:1019: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1020: DEBUG
+MapObject registered: 00000002 MapObject id:1101: DEBUG
+MapObject registered: FFFBFFFD MapObject id:1102: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1104: DEBUG
+MapObject registered: 00000000 MapObject id:1105: DEBUG
+MapObject registered: FFFDFFFD MapObject id:1106: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1110: DEBUG
+MapObject registered: FFFAFFFA MapObject id:1111: DEBUG
+MapObject registered: 00010001 MapObject id:1239: DEBUG
+MapObject registered: 00010001 MapObject id:1240: DEBUG
+MapObject registered: 00010001 MapObject id:1241: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1242: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1243: DEBUG
+MapObject registered: FFFCFFFC MapObject id:1244: DEBUG
+MapObject registered: FFFCFFFC MapObject id:1245: DEBUG
+MapObject registered: FFFAFFFD MapObject id:1246: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1247: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1250: DEBUG
+MapObject registered: FFFAFFFA MapObject id:1250: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1250: DEBUG
+MapObject registered: 00020000 MapObject id:1250: DEBUG
+MapObject registered: 00000000 MapObject id:1250: DEBUG
+MapObject registered: 00000003 MapObject id:1250: DEBUG
+MapObject registered: 00010003 MapObject id:1250: DEBUG
+MapObject registered: 00000004 MapObject id:1250: DEBUG
+MapObject registered: 00010001 MapObject id:1250: DEBUG
+MapObject registered: 00030002 MapObject id:1250: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1307: DEBUG
+MapObject registered: 00000000 MapObject id:1308: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1316: DEBUG
+MapObject registered: 0001FFFF MapObject id:1327: DEBUG
+MapObject registered: 0002FFFF MapObject id:1328: DEBUG
+MapObject registered: 0000FFFE MapObject id:1329: DEBUG
+MapObject registered: 0000FFFF MapObject id:1330: DEBUG
+MapObject registered: 0000FFFE MapObject id:1331: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1332: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1333: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1334: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1335: DEBUG
+MapObject registered: FFFAFFFB MapObject id:1336: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito East Field.csv using format text/csv
+MapObject registered: FFF90008 MapObject id:1028: DEBUG
+MapObject registered: FFFC0008 MapObject id:1123: DEBUG
+MapObject registered: FFFB0007 MapObject id:1187: DEBUG
+MapObject registered: FFFA000A MapObject id:1199: DEBUG
+MapObject registered: 00050000 MapObject id:1219: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1232: DEBUG
+MapObject registered: FFFEFFF7 MapObject id:1301: DEBUG
+MapObject registered: FFFC0007 MapObject id:1302: DEBUG
+MapObject registered: 00070001 MapObject id:1303: DEBUG
+MapObject registered: 000D0009 MapObject id:1208: DEBUG
+MapObject registered: 000A0007 MapObject id:1113: DEBUG
+MapObject registered: 0003000B MapObject id:1116: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito Harbor.csv using format text/csv
+MapObject registered: FFFEFFFD MapObject id:1021: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1023: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1025: DEBUG
+MapObject registered: FFFFFFFE MapObject id:1026: DEBUG
+MapObject registered: FFFA0000 MapObject id:1121: DEBUG
+MapObject registered: FFFAFFFC MapObject id:1128: DEBUG
+MapObject registered: FFFE0001 MapObject id:1135: DEBUG
+MapObject registered: FFFD0000 MapObject id:1176: DEBUG
+MapObject registered: FFF8FFFF MapObject id:1178: DEBUG
+MapObject registered: FFF9FFFE MapObject id:1179: DEBUG
+MapObject registered: FFFF0000 MapObject id:1181: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1185: DEBUG
+MapObject registered: FFF90001 MapObject id:1186: DEBUG
+MapObject registered: FFF90001 MapObject id:1188: DEBUG
+MapObject registered: FFF90001 MapObject id:1189: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1190: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1191: DEBUG
+MapObject registered: FFFBFFFD MapObject id:1193: DEBUG
+MapObject registered: FFFEFFFF MapObject id:1194: DEBUG
+MapObject registered: FFF9FFFD MapObject id:1204: DEBUG
+MapObject registered: FFFE0001 MapObject id:1209: DEBUG
+MapObject registered: FFFF0002 MapObject id:1210: DEBUG
+MapObject registered: FFF9FFFD MapObject id:1231: DEBUG
+MapObject registered: FFF8FFFD MapObject id:1296: DEBUG
+MapObject registered: 00000000 MapObject id:1315: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito Town.csv using format text/csv
+MapObject registered: FFFB0000 MapObject id:1022: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1024: DEBUG
+MapObject registered: FFFCFFFD MapObject id:1053: DEBUG
+MapObject registered: FFFCFFFE MapObject id:1054: DEBUG
+MapObject registered: FFFA0001 MapObject id:1057: DEBUG
+MapObject registered: FFFA0001 MapObject id:1058: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1127: DEBUG
+MapObject registered: FFFF0001 MapObject id:1177: DEBUG
+MapObject registered: FFF90000 MapObject id:1180: DEBUG
+MapObject registered: FFFB0001 MapObject id:1182: DEBUG
+MapObject registered: FFF90001 MapObject id:1183: DEBUG
+MapObject registered: FFFB0000 MapObject id:1184: DEBUG
+MapObject registered: FFFB0001 MapObject id:1192: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1196: DEBUG
+MapObject registered: FFFC0000 MapObject id:1197: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1200: DEBUG
+MapObject registered: FFF8FFFE MapObject id:1201: DEBUG
+MapObject registered: FFFDFFFF MapObject id:1202: DEBUG
+MapObject registered: FFFD0001 MapObject id:1203: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1211: DEBUG
+MapObject registered: FFFC0001 MapObject id:1230: DEBUG
+MapObject registered: FFF8FFFD MapObject id:1297: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1317: DEBUG
+MapObject registered: FFFA0000 MapObject id:1319: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1321: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito West Field.csv using format text/csv
+MapObject registered: FFF4FFF3 MapObject id:1112: DEBUG
+MapObject registered: FFF5FFF5 MapObject id:1198: DEBUG
+MapObject registered: FFF6FFF5 MapObject id:1206: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1218: DEBUG
+MapObject registered: FFF5FFF5 MapObject id:1298: DEBUG
+MapObject registered: 0006FFFB MapObject id:1299: DEBUG
+MapObject registered: FFFB0007 MapObject id:1300: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Emir Cave Lv2.csv using format text/csv
+MapObject registered: 00080002 MapObject id:1224: DEBUG
+MapObject registered: 00080002 MapObject id:1225: DEBUG
+MapObject registered: 00080001 MapObject id:1337: DEBUG
+MapObject registered: 00080002 MapObject id:1338: DEBUG
+MapObject registered: 00070002 MapObject id:1342: DEBUG
+MapObject registered: 00070001 MapObject id:1341: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Forest of Echoes.csv using format text/csv
+MapObject registered: FFF50003 MapObject id:1251: DEBUG
+MapObject registered: FFF50003 MapObject id:1252: DEBUG
+MapObject registered: FFF50004 MapObject id:1253: DEBUG
+MapObject registered: FFF40003 MapObject id:1254: DEBUG
+MapObject registered: 0005FFF6 MapObject id:1256: DEBUG
+MapObject registered: FFF50004 MapObject id:1257: DEBUG
+MapObject registered: FFF50004 MapObject id:1258: DEBUG
+MapObject registered: FFF40003 MapObject id:1259: DEBUG
+MapObject registered: FFF50003 MapObject id:1260: DEBUG
+MapObject registered: FFF40003 MapObject id:1261: DEBUG
+MapObject registered: FFF50003 MapObject id:1262: DEBUG
+MapObject registered: FFF50003 MapObject id:1263: DEBUG
+MapObject registered: FFF50004 MapObject id:1264: DEBUG
+MapObject registered: FFF60002 MapObject id:1265: DEBUG
+MapObject registered: FFF60003 MapObject id:1266: DEBUG
+MapObject registered: FFF60003 MapObject id:1267: DEBUG
+MapObject registered: FFF40003 MapObject id:1268: DEBUG
+MapObject registered: FFF60002 MapObject id:1304: DEBUG
+MapObject registered: 0000FFF6 MapObject id:1305: DEBUG
+MapObject registered: 00030001 MapObject id:1306: DEBUG
+MapObject registered: FFF50003 MapObject id:1322: DEBUG
+MapObject registered: FFF50003 MapObject id:1323: DEBUG
+MapObject registered: FFF50003 MapObject id:1324: DEBUG
+MapObject registered: FFF50003 MapObject id:1325: DEBUG
+MapObject registered: FFF50004 MapObject id:1326: DEBUG
+MapObject registered: FFF60003 MapObject id:1343: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/hodehimes.csv using format text/csv
+MapObject registered: FFFEFFFD MapObject id:1000: DEBUG
+MapObject registered: FFFEFFFF MapObject id:1001: DEBUG
+MapObject registered: FFFC0000 MapObject id:1002: DEBUG
+MapObject registered: FFFC0003 MapObject id:1003: DEBUG
+MapObject registered: 00020001 MapObject id:1004: DEBUG
+MapObject registered: 0000FFFF MapObject id:1005: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1049: DEBUG
+MapObject registered: FFFC0000 MapObject id:1059: DEBUG
+MapObject registered: FFFFFFFC MapObject id:1062: DEBUG
+MapObject registered: FFFD0000 MapObject id:1065: DEBUG
+MapObject registered: 00000002 MapObject id:1067: DEBUG
+MapObject registered: 00010002 MapObject id:1165: DEBUG
+MapObject registered: FFFF0000 MapObject id:1166: DEBUG
+MapObject registered: FFFC0001 MapObject id:1167: DEBUG
+MapObject registered: 0000FFFE MapObject id:1168: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1170: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1226: DEBUG
+MapObject registered: FFFC0000 MapObject id:1228: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1272: DEBUG
+MapObject registered: FFFD0000 MapObject id:1273: DEBUG
+MapObject registered: 00010000 MapObject id:1274: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1313: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Northwest of Prontera.csv using format text/csv
+MapObject registered: 000B0002 MapObject id:1092: DEBUG
+MapObject registered: 0007FFF5 MapObject id:1095: DEBUG
+MapObject registered: 0000FFFC MapObject id:1097: DEBUG
+MapObject registered: 0001000C MapObject id:1098: DEBUG
+MapObject registered: 00070004 MapObject id:1217: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1292: DEBUG
+MapObject registered: FFF80006 MapObject id:1293: DEBUG
+MapObject registered: 0004FFFF MapObject id:1294: DEBUG
+MapObject registered: 000A000A MapObject id:1295: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/outside_hodehimes.csv using format text/csv
+MapObject registered: FFFCFFFE MapObject id:1060: DEBUG
+MapObject registered: FFF8FFF4 MapObject id:1066: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1143: DEBUG
+MapObject registered: 00030009 MapObject id:1144: DEBUG
+MapObject registered: FFFCFFFE MapObject id:1171: DEBUG
+MapObject registered: FFF90009 MapObject id:1214: DEBUG
+MapObject registered: FFF8FFF5 MapObject id:1275: DEBUG
+MapObject registered: FFF8000A MapObject id:1276: DEBUG
+MapObject registered: 0008FFF9 MapObject id:1277: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1278: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Prontera.csv using format text/csv
+MapObject registered: 00110002 MapObject id:1006: DEBUG
+MapObject registered: 00150005 MapObject id:1007: DEBUG
+MapObject registered: 00170003 MapObject id:1008: DEBUG
+MapObject registered: 00140009 MapObject id:1009: DEBUG
+MapObject registered: 00120002 MapObject id:1010: DEBUG
+MapObject registered: 00120004 MapObject id:1011: DEBUG
+MapObject registered: 00120003 MapObject id:1012: DEBUG
+MapObject registered: 00100004 MapObject id:1013: DEBUG
+MapObject registered: FFFF0003 MapObject id:1014: DEBUG
+MapObject registered: 00130003 MapObject id:1050: DEBUG
+MapObject registered: 00130003 MapObject id:1051: DEBUG
+MapObject registered: 00150002 MapObject id:1055: DEBUG
+MapObject registered: 00140002 MapObject id:1056: DEBUG
+MapObject registered: 00160004 MapObject id:1069: DEBUG
+MapObject registered: 00160004 MapObject id:1070: DEBUG
+MapObject registered: 00110003 MapObject id:1071: DEBUG
+MapObject registered: 000A0003 MapObject id:1072: DEBUG
+MapObject registered: 00030003 MapObject id:1073: DEBUG
+MapObject registered: 00060003 MapObject id:1074: DEBUG
+MapObject registered: 00100003 MapObject id:1075: DEBUG
+MapObject registered: 00130003 MapObject id:1076: DEBUG
+MapObject registered: 00130003 MapObject id:1077: DEBUG
+MapObject registered: 00160004 MapObject id:1078: DEBUG
+MapObject registered: 00120003 MapObject id:1083: DEBUG
+MapObject registered: 000C0001 MapObject id:1084: DEBUG
+MapObject registered: 00050002 MapObject id:1085: DEBUG
+MapObject registered: 00140009 MapObject id:1090: DEBUG
+MapObject registered: 00140009 MapObject id:1091: DEBUG
+MapObject registered: 00180003 MapObject id:1093: DEBUG
+MapObject registered: 00180003 MapObject id:1094: DEBUG
+MapObject registered: 00140000 MapObject id:1096: DEBUG
+MapObject registered: 00010005 MapObject id:1151: DEBUG
+MapObject registered: 00160001 MapObject id:1156: DEBUG
+MapObject registered: 00150004 MapObject id:1158: DEBUG
+MapObject registered: 00130002 MapObject id:1159: DEBUG
+MapObject registered: 00160002 MapObject id:1160: DEBUG
+MapObject registered: 00140005 MapObject id:1161: DEBUG
+MapObject registered: 00140002 MapObject id:1162: DEBUG
+MapObject registered: 00140004 MapObject id:1163: DEBUG
+MapObject registered: 00100003 MapObject id:1223: DEBUG
+MapObject registered: 00150001 MapObject id:1229: DEBUG
+MapObject registered: 000A0003 MapObject id:1279: DEBUG
+MapObject registered: 00120003 MapObject id:1280: DEBUG
+MapObject registered: 00140009 MapObject id:1281: DEBUG
+MapObject registered: 00180002 MapObject id:1282: DEBUG
+MapObject registered: FFF7FFF9 MapObject id:1283: DEBUG
+MapObject registered: 00170003 MapObject id:1314: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Southeast of Prontera.csv using format text/csv
+MapObject registered: FFF70005 MapObject id:1068: DEBUG
+MapObject registered: FFF9FFF5 MapObject id:1079: DEBUG
+MapObject registered: FFFFFFFE MapObject id:1080: DEBUG
+MapObject registered: 0005FFFD MapObject id:1081: DEBUG
+MapObject registered: FFFFFFF9 MapObject id:1082: DEBUG
+MapObject registered: 0001FFF8 MapObject id:1089: DEBUG
+MapObject registered: FFF70004 MapObject id:1099: DEBUG
+MapObject registered: FFF3FFF4 MapObject id:1152: DEBUG
+MapObject registered: FFF3000B MapObject id:1153: DEBUG
+MapObject registered: FFF80005 MapObject id:1164: DEBUG
+MapObject registered: FFFD0008 MapObject id:1215: DEBUG
+MapObject registered: FFF7FFF9 MapObject id:1283: DEBUG
+MapObject registered: 0003FFF5 MapObject id:1284: DEBUG
+MapObject registered: 0000FFFF MapObject id:1285: DEBUG
+MapObject registered: 000A0007 MapObject id:1286: DEBUG
+MapObject registered: FFF70005 MapObject id:1287: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Southwest of Prontera.csv using format text/csv
+MapObject registered: FFF8FFFE MapObject id:1154: DEBUG
+MapObject registered: FFFA0006 MapObject id:1155: DEBUG
+MapObject registered: 00050002 MapObject id:1216: DEBUG
+MapObject registered: FFF6FFFA MapObject id:1288: DEBUG
+MapObject registered: 0005FFFD MapObject id:1290: DEBUG
+MapObject registered: FFFA0007 MapObject id:1289: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Adventurers Training Center.csv using format text/csv
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00010000 MapObject id:1143: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/adventures_trainingsground.csv using format text/csv
+MapObject registered: 00010004 MapObject id:1142: DEBUG
+MapObject registered: 00040001 MapObject id:1142: DEBUG
+MapObject registered: FFFF0000 MapObject id:1142: DEBUG
+MapObject registered: 0000FFFA MapObject id:48: DEBUG
+MapObject registered: 00030004 MapObject id:5000: DEBUG
+MapObject registered: 00030004 MapObject id:5000: DEBUG
+MapObject registered: 0000FFF9 MapObject id:9: DEBUG
+MapObject registered: 0000FFF9 MapObject id:10: DEBUG
+MapObject registered: 0000FFF9 MapObject id:11: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Alfheim.csv using format text/csv
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito East Field.csv using format text/csv
+MapObject registered: FFFFFFF6 MapObject id:1123: DEBUG
+MapObject registered: 00010000 MapObject id:1123: DEBUG
+MapObject registered: FFFC0007 MapObject id:1123: DEBUG
+MapObject registered: FFFFFFF6 MapObject id:1131: DEBUG
+MapObject registered: 00010000 MapObject id:1131: DEBUG
+MapObject registered: FFFC0008 MapObject id:1131: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito Harbor.csv using format text/csv
+MapObject registered: FFFF0002 MapObject id:35: DEBUG
+MapObject registered: FFFF0002 MapObject id:35: DEBUG
+MapObject registered: FFFF0002 MapObject id:45: DEBUG
+MapObject registered: FFFE0003 MapObject id:57: DEBUG
+MapObject registered: FFFE0000 MapObject id:1123: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1123: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1126: DEBUG
+MapObject registered: FFFE0000 MapObject id:1131: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1131: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1131: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1131: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFF MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFF MapObject id:5005: DEBUG
+MapObject registered: FFFF0000 MapObject id:5005: DEBUG
+MapObject registered: FFFF0000 MapObject id:5005: DEBUG
+MapObject registered: FFFF0001 MapObject id:5005: DEBUG
+MapObject registered: FFFF0001 MapObject id:5005: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito Town.csv using format text/csv
+MapObject registered: FFFC0001 MapObject id:1123: DEBUG
+MapObject registered: FFFAFFFD MapObject id:1123: DEBUG
+MapObject registered: FFF90000 MapObject id:1123: DEBUG
+MapObject registered: FFF80001 MapObject id:1123: DEBUG
+MapObject registered: FFFC0001 MapObject id:1131: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1131: DEBUG
+MapObject registered: FFF90000 MapObject id:1131: DEBUG
+MapObject registered: FFF80001 MapObject id:1131: DEBUG
+MapObject registered: FFFB0002 MapObject id:38: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1126: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1126: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito West Field.csv using format text/csv
+MapObject registered: FFF7FFF6 MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1123: DEBUG
+MapObject registered: FFFF0008 MapObject id:1123: DEBUG
+MapObject registered: FFF7FFF7 MapObject id:1131: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1131: DEBUG
+MapObject registered: FFFF0008 MapObject id:1131: DEBUG
+MapObject registered: FFFB0009 MapObject id:37: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/hodehimes.csv using format text/csv
+MapObject registered: FFFEFFFF MapObject id:13: DEBUG
+MapObject registered: 0000FFFF MapObject id:15: DEBUG
+MapObject registered: 00010000 MapObject id:1123: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1123: DEBUG
+MapObject registered: FFFF0000 MapObject id:1123: DEBUG
+MapObject registered: FFFC0000 MapObject id:1123: DEBUG
+MapObject registered: 00010001 MapObject id:1124: DEBUG
+MapObject registered: 00010000 MapObject id:1125: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1125: DEBUG
+MapObject registered: FFFE0000 MapObject id:1125: DEBUG
+MapObject registered: FFFC0000 MapObject id:1125: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFC MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0000 MapObject id:5000: DEBUG
+MapObject registered: FFFD0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00010000 MapObject id:5001: DEBUG
+MapObject registered: FFFFFFFE MapObject id:5001: DEBUG
+MapObject registered: FFFFFFFE MapObject id:5001: DEBUG
+MapObject registered: 00020001 MapObject id:5001: DEBUG
+MapObject registered: 00020002 MapObject id:5001: DEBUG
+MapObject registered: 00020001 MapObject id:5001: DEBUG
+MapObject registered: 00020002 MapObject id:5001: DEBUG
+MapObject registered: FFFDFFFF MapObject id:5002: DEBUG
+MapObject registered: FFFDFFFF MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Northwest of Prontera.csv using format text/csv
+MapObject registered: 0009000A MapObject id:1123: DEBUG
+MapObject registered: FFFDFFFB MapObject id:1123: DEBUG
+MapObject registered: FFF70008 MapObject id:1123: DEBUG
+MapObject registered: FFF70007 MapObject id:1127: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1127: DEBUG
+MapObject registered: 0009000A MapObject id:1127: DEBUG
+MapObject registered: 000A0003 MapObject id:5: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/outside_hodehimes.csv using format text/csv
+MapObject registered: FFFFFFFB MapObject id:16: DEBUG
+MapObject registered: FFFC0002 MapObject id:1125: DEBUG
+MapObject registered: FFFC0002 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: 000C0003 MapObject id:14: DEBUG
+MapObject registered: FFFCFFFE MapObject id:28: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Prontera.csv using format text/csv
+MapObject registered: 00120002 MapObject id:3: DEBUG
+MapObject registered: 00120002 MapObject id:1123: DEBUG
+MapObject registered: 00130005 MapObject id:1123: DEBUG
+MapObject registered: 00160004 MapObject id:1123: DEBUG
+MapObject registered: 00180003 MapObject id:1123: DEBUG
+MapObject registered: 00150001 MapObject id:1123: DEBUG
+MapObject registered: 000D0004 MapObject id:1123: DEBUG
+MapObject registered: 00120003 MapObject id:1124: DEBUG
+MapObject registered: 00120002 MapObject id:1127: DEBUG
+MapObject registered: 00130005 MapObject id:1127: DEBUG
+MapObject registered: 00160004 MapObject id:1127: DEBUG
+MapObject registered: 00180003 MapObject id:1127: DEBUG
+MapObject registered: 00150001 MapObject id:1127: DEBUG
+MapObject registered: 000D0004 MapObject id:1127: DEBUG
+MapObject registered: 00110004 MapObject id:5000: DEBUG
+MapObject registered: 00110004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00110003 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00120002 MapObject id:5003: DEBUG
+MapObject registered: 00120002 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00130003 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00140002 MapObject id:5003: DEBUG
+MapObject registered: 00140002 MapObject id:5003: DEBUG
+MapObject registered: 00140003 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00160004 MapObject id:5003: DEBUG
+MapObject registered: 00160004 MapObject id:5003: DEBUG
+MapObject registered: 00150003 MapObject id:5003: DEBUG
+MapObject registered: 00150003 MapObject id:5003: DEBUG
+MapObject registered: 00150002 MapObject id:5003: DEBUG
+MapObject registered: 00160002 MapObject id:5003: DEBUG
+MapObject registered: 00150002 MapObject id:5003: DEBUG
+MapObject registered: 00160002 MapObject id:5003: DEBUG
+MapObject registered: 00180002 MapObject id:5003: DEBUG
+MapObject registered: 00180002 MapObject id:5003: DEBUG
+MapObject registered: 00140003 MapObject id:5003: DEBUG
+MapObject registered: 000B0002 MapObject id:5003: DEBUG
+MapObject registered: 000B0002 MapObject id:5003: DEBUG
+MapObject registered: 000B0003 MapObject id:5003: DEBUG
+MapObject registered: 000B0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0003 MapObject id:5003: DEBUG
+MapObject registered: 000C0003 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Southeast of Prontera.csv using format text/csv
+MapObject registered: FFF8FFFB MapObject id:1123: DEBUG
+MapObject registered: FFFC0009 MapObject id:1123: DEBUG
+MapObject registered: 0000FFFD MapObject id:1123: DEBUG
+MapObject registered: FFF8FFFC MapObject id:1127: DEBUG
+MapObject registered: FFFB0009 MapObject id:1127: DEBUG
+MapObject registered: 0000FFFC MapObject id:1127: DEBUG
+MapObject registered: FFF50000 MapObject id:1: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF8FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF9 MapObject id:31: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:31: DEBUG
+MapObject registered: FFFAFFF9 MapObject id:31: DEBUG
+MapObject registered: FFF8FFF6 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF8FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF9FFF9 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF6FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:32: DEBUG
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/adventures-traininsground.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/adventures_trainingsground.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim Dungeon.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim Forest.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim poro island.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Blue Echo.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B1.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B2.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B3.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cognito Dungeon.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/cognito_eastfield.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/cognito_westfield.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Echo of Forests.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/outside_hodehimes.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Culverts.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Northwest Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera South East Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Southwest Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera.csv using format text/csv
+CharacterConfigurationFactory: verbose   Loading character information from: ~/character-template.csv using format text/csv
+Calling loaded-event on factories & managers: verbose   HostContext
+NetworkManager: error     Cannot create connection with authentication server
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Parameter '?SkillId' must be defined.
+Database: error     An item with the same key has already been added.
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Parameter '?SkillId' must be defined.
+Database: error     An item with the same key has already been added.
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Parameter '?SkillId' must be defined.
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Parameter '?SkillId' must be defined.
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+Network: Connection accepted from: 127.0.0.1:49540
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+"Saga.Map.exe",Warning,0,"System.NullReferenceException: Object reference not set to an instance of an object.
+   at Saga.Map.Client.Client.WorldConnectionError() in c:\Users\usuario\Documents\GitHub\SagaRev\Saga.Map\Netwok\Client\Client-Core.cs:line 558
+   at Saga.Map.Client.Client.Login(CMSG_LOGIN cpkt) in c:\Users\usuario\Documents\GitHub\SagaRev\Saga.Map\Netwok\Client\Client-Core.cs:line 137",,,,,,,
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Parameter '?SkillId' must be defined.
+Database: error     An item with the same key has already been added.
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+Network: Connection accepted from: 127.0.0.1:49541
+quest: ïnfo      Deserialize scenario quest: 2
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+"Saga.Map.exe",Warning,0,"System.NullReferenceException: Object reference not set to an instance of an object.
+   at Saga.Map.Client.Client.WorldConnectionError() in c:\Users\usuario\Documents\GitHub\SagaRev\Saga.Map\Netwok\Client\Client-Core.cs:line 558
+   at Saga.Map.Client.Client.Login(CMSG_LOGIN cpkt) in c:\Users\usuario\Documents\GitHub\SagaRev\Saga.Map\Netwok\Client\Client-Core.cs:line 137",,,,,,,
+Database: error     Parameter '?SkillId' must be defined.
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Parameter '?SkillId' must be defined.
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Unknown column 'SkillId' in 'field list'
+Database: error     Parameter '?SkillId' must be defined.
+Network: Authentication server disconnected
+#############################################################################
+Saga Map Server starting on: 25/04/2015 01:01:35 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 9785344
+OS Bit Version: 32 Bit
+#############################################################################
+XmlSections: warning   Section Saga.Manager.ConsoleSettings was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.NetworkSettings was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.WorldTasks was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Database was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Quest was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Scripting was not found using default manager/factory
+Calling initialize-event on factories & managers: verbose   HostContext
+Calling beforequery-event on factories & managers: verbose   HostContext
+Calling afterquery-event on factories & managers: verbose   HostContext
+Calling onload-event on factories & managers: verbose   HostContext
+database: ïnfo      Populating database pool with connections
+ScriptCompiler: verbose   Starting to compile scripting assembly: ../Saga.Scripting
+ScriptCompiler: verbose   Generate compile parameters
+ScriptCompiler: ïnfo      Scripts compiled no errors
+ScriptCompiler: warning   scripting assembly was compiled
+ScriptCompiler: verbose   Starting to compile scripting assembly: 158F4F343726CA477234AE4407241009, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Event Manager: verbose   Loading event information from: ~/eventlist.csv using format text/csv
+AdditionFactory: warning   Method not found Saga.Spells.Additions.ADDITION_SPPARTYRECOVERAMOUNT
+AdditionFactory: warning   Method not found Saga.Spells.Additions.ADDITION_MAGICALATTACKMAX
+AdditionFactory: verbose   Loading addition information from: ~/Addition_t.xml using format text/xml
+PortalFactory: verbose   Loading portal information from: ~/portal_data.csv using format text/csv
+SpellFactory: verbose   Loading spell information from: ~/spell_data.xml using format text/xml
+SpellFactory: verbose   Clear method lookup table
+StatusByLevelFactory: verbose   Loading statusbylevel information from: ~/experience.csv using format text/csv
+WarpFactory: verbose   Loading warp information from: ~/warp_data.csv using format text/csv
+ZoneFactory: verbose   Loading zone information from: ~/zone_data.csv using format text/csv
+"Saga.Map.exe",Error,0,"Cannot load heightmap from file: C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/heightmaps\alf_f00.hmap",,,,,,,
+ItemFactory: verbose   Loading item information from: ~/item_data.xml using format text/xml
+WeaponFactory: verbose   Loading weapon information from: ~/weapon_data.csv using format text/csv
+TemplateFactory: verbose   Loading portal information from: ~/npc_templates.csv using format text/csv
+TemplateFactory: verbose   Loading portal information from: ~/item_templates.csv using format text/csv
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Adventurers Training Center.csv using format text/csv
+MapObject registered: FFFE0002 MapObject id:1173: DEBUG
+MapObject registered: 00010002 MapObject id:1174: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1175: DEBUG
+MapObject registered: 0001FFFB MapObject id:1270: DEBUG
+MapObject registered: 00010000 MapObject id:1271: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/adventures_trainingsground.csv using format text/csv
+MapObject registered: 00000002 MapObject id:1145: DEBUG
+MapObject registered: 00040000 MapObject id:1064: DEBUG
+MapObject registered: FFFC0002 MapObject id:1149: DEBUG
+MapObject registered: 00040001 MapObject id:1146: DEBUG
+MapObject registered: FFFFFFFB MapObject id:1063: DEBUG
+MapObject registered: 0004FFFE MapObject id:1139: DEBUG
+MapObject registered: 00040002 MapObject id:1147: DEBUG
+MapObject registered: FFFD0002 MapObject id:1140: DEBUG
+MapObject registered: 00020004 MapObject id:1148: DEBUG
+MapObject registered: 00030004 MapObject id:1213: DEBUG
+MapObject registered: 0003FFFF MapObject id:1213: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim Forest.csv using format text/csv
+MapObject registered: FFFFFFF3 MapObject id:1107: DEBUG
+MapObject registered: FFFFFFF3 MapObject id:1109: DEBUG
+MapObject registered: FFFFFFF4 MapObject id:1235: DEBUG
+MapObject registered: 00010000 MapObject id:1248: DEBUG
+MapObject registered: FFFAFFF8 MapObject id:1309: DEBUG
+MapObject registered: FFFF0007 MapObject id:1310: DEBUG
+MapObject registered: 0009FFF7 MapObject id:1311: DEBUG
+MapObject registered: 00040000 MapObject id:1312: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim Poro Island.csv using format text/csv
+MapObject registered: 0001FFF9 MapObject id:1249: DEBUG
+MapObject registered: 0002FFF9 MapObject id:1108: DEBUG
+MapObject registered: 0002FFF9 MapObject id:1236: DEBUG
+MapObject registered: 0002FFFB MapObject id:1237: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim.csv using format text/csv
+MapObject registered: 00010000 MapObject id:1015: DEBUG
+MapObject registered: 0002FFFF MapObject id:1016: DEBUG
+MapObject registered: 0001FFFE MapObject id:1017: DEBUG
+MapObject registered: 0001FFFE MapObject id:1017: DEBUG
+MapObject registered: 0001FFFE MapObject id:1018: DEBUG
+MapObject registered: 00000002 MapObject id:1019: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1020: DEBUG
+MapObject registered: 00000002 MapObject id:1101: DEBUG
+MapObject registered: FFFBFFFD MapObject id:1102: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1104: DEBUG
+MapObject registered: 00000000 MapObject id:1105: DEBUG
+MapObject registered: FFFDFFFD MapObject id:1106: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1110: DEBUG
+MapObject registered: FFFAFFFA MapObject id:1111: DEBUG
+MapObject registered: 00010001 MapObject id:1239: DEBUG
+MapObject registered: 00010001 MapObject id:1240: DEBUG
+MapObject registered: 00010001 MapObject id:1241: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1242: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1243: DEBUG
+MapObject registered: FFFCFFFC MapObject id:1244: DEBUG
+MapObject registered: FFFCFFFC MapObject id:1245: DEBUG
+MapObject registered: FFFAFFFD MapObject id:1246: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1247: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1250: DEBUG
+MapObject registered: FFFAFFFA MapObject id:1250: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1250: DEBUG
+MapObject registered: 00020000 MapObject id:1250: DEBUG
+MapObject registered: 00000000 MapObject id:1250: DEBUG
+MapObject registered: 00000003 MapObject id:1250: DEBUG
+MapObject registered: 00010003 MapObject id:1250: DEBUG
+MapObject registered: 00000004 MapObject id:1250: DEBUG
+MapObject registered: 00010001 MapObject id:1250: DEBUG
+MapObject registered: 00030002 MapObject id:1250: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1307: DEBUG
+MapObject registered: 00000000 MapObject id:1308: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1316: DEBUG
+MapObject registered: 0001FFFF MapObject id:1327: DEBUG
+MapObject registered: 0002FFFF MapObject id:1328: DEBUG
+MapObject registered: 0000FFFE MapObject id:1329: DEBUG
+MapObject registered: 0000FFFF MapObject id:1330: DEBUG
+MapObject registered: 0000FFFE MapObject id:1331: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1332: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1333: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1334: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1335: DEBUG
+MapObject registered: FFFAFFFB MapObject id:1336: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito East Field.csv using format text/csv
+MapObject registered: FFF90008 MapObject id:1028: DEBUG
+MapObject registered: FFFC0008 MapObject id:1123: DEBUG
+MapObject registered: FFFB0007 MapObject id:1187: DEBUG
+MapObject registered: FFFA000A MapObject id:1199: DEBUG
+MapObject registered: 00050000 MapObject id:1219: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1232: DEBUG
+MapObject registered: FFFEFFF7 MapObject id:1301: DEBUG
+MapObject registered: FFFC0007 MapObject id:1302: DEBUG
+MapObject registered: 00070001 MapObject id:1303: DEBUG
+MapObject registered: 000D0009 MapObject id:1208: DEBUG
+MapObject registered: 000A0007 MapObject id:1113: DEBUG
+MapObject registered: 0003000B MapObject id:1116: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito Harbor.csv using format text/csv
+MapObject registered: FFFEFFFD MapObject id:1021: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1023: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1025: DEBUG
+MapObject registered: FFFFFFFE MapObject id:1026: DEBUG
+MapObject registered: FFFA0000 MapObject id:1121: DEBUG
+MapObject registered: FFFAFFFC MapObject id:1128: DEBUG
+MapObject registered: FFFE0001 MapObject id:1135: DEBUG
+MapObject registered: FFFD0000 MapObject id:1176: DEBUG
+MapObject registered: FFF8FFFF MapObject id:1178: DEBUG
+MapObject registered: FFF9FFFE MapObject id:1179: DEBUG
+MapObject registered: FFFF0000 MapObject id:1181: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1185: DEBUG
+MapObject registered: FFF90001 MapObject id:1186: DEBUG
+MapObject registered: FFF90001 MapObject id:1188: DEBUG
+MapObject registered: FFF90001 MapObject id:1189: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1190: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1191: DEBUG
+MapObject registered: FFFBFFFD MapObject id:1193: DEBUG
+MapObject registered: FFFEFFFF MapObject id:1194: DEBUG
+MapObject registered: FFF9FFFD MapObject id:1204: DEBUG
+MapObject registered: FFFE0001 MapObject id:1209: DEBUG
+MapObject registered: FFFF0002 MapObject id:1210: DEBUG
+MapObject registered: FFF9FFFD MapObject id:1231: DEBUG
+MapObject registered: FFF8FFFD MapObject id:1296: DEBUG
+MapObject registered: 00000000 MapObject id:1315: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito Town.csv using format text/csv
+MapObject registered: FFFB0000 MapObject id:1022: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1024: DEBUG
+MapObject registered: FFFCFFFD MapObject id:1053: DEBUG
+MapObject registered: FFFCFFFE MapObject id:1054: DEBUG
+MapObject registered: FFFA0001 MapObject id:1057: DEBUG
+MapObject registered: FFFA0001 MapObject id:1058: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1127: DEBUG
+MapObject registered: FFFF0001 MapObject id:1177: DEBUG
+MapObject registered: FFF90000 MapObject id:1180: DEBUG
+MapObject registered: FFFB0001 MapObject id:1182: DEBUG
+MapObject registered: FFF90001 MapObject id:1183: DEBUG
+MapObject registered: FFFB0000 MapObject id:1184: DEBUG
+MapObject registered: FFFB0001 MapObject id:1192: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1196: DEBUG
+MapObject registered: FFFC0000 MapObject id:1197: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1200: DEBUG
+MapObject registered: FFF8FFFE MapObject id:1201: DEBUG
+MapObject registered: FFFDFFFF MapObject id:1202: DEBUG
+MapObject registered: FFFD0001 MapObject id:1203: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1211: DEBUG
+MapObject registered: FFFC0001 MapObject id:1230: DEBUG
+MapObject registered: FFF8FFFD MapObject id:1297: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1317: DEBUG
+MapObject registered: FFFA0000 MapObject id:1319: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1321: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito West Field.csv using format text/csv
+MapObject registered: FFF4FFF3 MapObject id:1112: DEBUG
+MapObject registered: FFF5FFF5 MapObject id:1198: DEBUG
+MapObject registered: FFF6FFF5 MapObject id:1206: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1218: DEBUG
+MapObject registered: FFF5FFF5 MapObject id:1298: DEBUG
+MapObject registered: 0006FFFB MapObject id:1299: DEBUG
+MapObject registered: FFFB0007 MapObject id:1300: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Emir Cave Lv2.csv using format text/csv
+MapObject registered: 00080002 MapObject id:1224: DEBUG
+MapObject registered: 00080002 MapObject id:1225: DEBUG
+MapObject registered: 00080001 MapObject id:1337: DEBUG
+MapObject registered: 00080002 MapObject id:1338: DEBUG
+MapObject registered: 00070002 MapObject id:1342: DEBUG
+MapObject registered: 00070001 MapObject id:1341: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Forest of Echoes.csv using format text/csv
+MapObject registered: FFF50003 MapObject id:1251: DEBUG
+MapObject registered: FFF50003 MapObject id:1252: DEBUG
+MapObject registered: FFF50004 MapObject id:1253: DEBUG
+MapObject registered: FFF40003 MapObject id:1254: DEBUG
+MapObject registered: 0005FFF6 MapObject id:1256: DEBUG
+MapObject registered: FFF50004 MapObject id:1257: DEBUG
+MapObject registered: FFF50004 MapObject id:1258: DEBUG
+MapObject registered: FFF40003 MapObject id:1259: DEBUG
+MapObject registered: FFF50003 MapObject id:1260: DEBUG
+MapObject registered: FFF40003 MapObject id:1261: DEBUG
+MapObject registered: FFF50003 MapObject id:1262: DEBUG
+MapObject registered: FFF50003 MapObject id:1263: DEBUG
+MapObject registered: FFF50004 MapObject id:1264: DEBUG
+MapObject registered: FFF60002 MapObject id:1265: DEBUG
+MapObject registered: FFF60003 MapObject id:1266: DEBUG
+MapObject registered: FFF60003 MapObject id:1267: DEBUG
+MapObject registered: FFF40003 MapObject id:1268: DEBUG
+MapObject registered: FFF60002 MapObject id:1304: DEBUG
+MapObject registered: 0000FFF6 MapObject id:1305: DEBUG
+MapObject registered: 00030001 MapObject id:1306: DEBUG
+MapObject registered: FFF50003 MapObject id:1322: DEBUG
+MapObject registered: FFF50003 MapObject id:1323: DEBUG
+MapObject registered: FFF50003 MapObject id:1324: DEBUG
+MapObject registered: FFF50003 MapObject id:1325: DEBUG
+MapObject registered: FFF50004 MapObject id:1326: DEBUG
+MapObject registered: FFF60003 MapObject id:1343: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/hodehimes.csv using format text/csv
+MapObject registered: FFFEFFFD MapObject id:1000: DEBUG
+MapObject registered: FFFEFFFF MapObject id:1001: DEBUG
+MapObject registered: FFFC0000 MapObject id:1002: DEBUG
+MapObject registered: FFFC0003 MapObject id:1003: DEBUG
+MapObject registered: 00020001 MapObject id:1004: DEBUG
+MapObject registered: 0000FFFF MapObject id:1005: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1049: DEBUG
+MapObject registered: FFFC0000 MapObject id:1059: DEBUG
+MapObject registered: FFFFFFFC MapObject id:1062: DEBUG
+MapObject registered: FFFD0000 MapObject id:1065: DEBUG
+MapObject registered: 00000002 MapObject id:1067: DEBUG
+MapObject registered: 00010002 MapObject id:1165: DEBUG
+MapObject registered: FFFF0000 MapObject id:1166: DEBUG
+MapObject registered: FFFC0001 MapObject id:1167: DEBUG
+MapObject registered: 0000FFFE MapObject id:1168: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1170: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1226: DEBUG
+MapObject registered: FFFC0000 MapObject id:1228: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1272: DEBUG
+MapObject registered: FFFD0000 MapObject id:1273: DEBUG
+MapObject registered: 00010000 MapObject id:1274: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1313: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Northwest of Prontera.csv using format text/csv
+MapObject registered: 000B0002 MapObject id:1092: DEBUG
+MapObject registered: 0007FFF5 MapObject id:1095: DEBUG
+MapObject registered: 0000FFFC MapObject id:1097: DEBUG
+MapObject registered: 0001000C MapObject id:1098: DEBUG
+MapObject registered: 00070004 MapObject id:1217: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1292: DEBUG
+MapObject registered: FFF80006 MapObject id:1293: DEBUG
+MapObject registered: 0004FFFF MapObject id:1294: DEBUG
+MapObject registered: 000A000A MapObject id:1295: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/outside_hodehimes.csv using format text/csv
+MapObject registered: FFFCFFFE MapObject id:1060: DEBUG
+MapObject registered: FFF8FFF4 MapObject id:1066: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1143: DEBUG
+MapObject registered: 00030009 MapObject id:1144: DEBUG
+MapObject registered: FFFCFFFE MapObject id:1171: DEBUG
+MapObject registered: FFF90009 MapObject id:1214: DEBUG
+MapObject registered: FFF8FFF5 MapObject id:1275: DEBUG
+MapObject registered: FFF8000A MapObject id:1276: DEBUG
+MapObject registered: 0008FFF9 MapObject id:1277: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1278: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Prontera.csv using format text/csv
+MapObject registered: 00110002 MapObject id:1006: DEBUG
+MapObject registered: 00150005 MapObject id:1007: DEBUG
+MapObject registered: 00170003 MapObject id:1008: DEBUG
+MapObject registered: 00140009 MapObject id:1009: DEBUG
+MapObject registered: 00120002 MapObject id:1010: DEBUG
+MapObject registered: 00120004 MapObject id:1011: DEBUG
+MapObject registered: 00120003 MapObject id:1012: DEBUG
+MapObject registered: 00100004 MapObject id:1013: DEBUG
+MapObject registered: FFFF0003 MapObject id:1014: DEBUG
+MapObject registered: 00130003 MapObject id:1050: DEBUG
+MapObject registered: 00130003 MapObject id:1051: DEBUG
+MapObject registered: 00150002 MapObject id:1055: DEBUG
+MapObject registered: 00140002 MapObject id:1056: DEBUG
+MapObject registered: 00160004 MapObject id:1069: DEBUG
+MapObject registered: 00160004 MapObject id:1070: DEBUG
+MapObject registered: 00110003 MapObject id:1071: DEBUG
+MapObject registered: 000A0003 MapObject id:1072: DEBUG
+MapObject registered: 00030003 MapObject id:1073: DEBUG
+MapObject registered: 00060003 MapObject id:1074: DEBUG
+MapObject registered: 00100003 MapObject id:1075: DEBUG
+MapObject registered: 00130003 MapObject id:1076: DEBUG
+MapObject registered: 00130003 MapObject id:1077: DEBUG
+MapObject registered: 00160004 MapObject id:1078: DEBUG
+MapObject registered: 00120003 MapObject id:1083: DEBUG
+MapObject registered: 000C0001 MapObject id:1084: DEBUG
+MapObject registered: 00050002 MapObject id:1085: DEBUG
+MapObject registered: 00140009 MapObject id:1090: DEBUG
+MapObject registered: 00140009 MapObject id:1091: DEBUG
+MapObject registered: 00180003 MapObject id:1093: DEBUG
+MapObject registered: 00180003 MapObject id:1094: DEBUG
+MapObject registered: 00140000 MapObject id:1096: DEBUG
+MapObject registered: 00010005 MapObject id:1151: DEBUG
+MapObject registered: 00160001 MapObject id:1156: DEBUG
+MapObject registered: 00150004 MapObject id:1158: DEBUG
+MapObject registered: 00130002 MapObject id:1159: DEBUG
+MapObject registered: 00160002 MapObject id:1160: DEBUG
+MapObject registered: 00140005 MapObject id:1161: DEBUG
+MapObject registered: 00140002 MapObject id:1162: DEBUG
+MapObject registered: 00140004 MapObject id:1163: DEBUG
+MapObject registered: 00100003 MapObject id:1223: DEBUG
+MapObject registered: 00150001 MapObject id:1229: DEBUG
+MapObject registered: 000A0003 MapObject id:1279: DEBUG
+MapObject registered: 00120003 MapObject id:1280: DEBUG
+MapObject registered: 00140009 MapObject id:1281: DEBUG
+MapObject registered: 00180002 MapObject id:1282: DEBUG
+MapObject registered: FFF7FFF9 MapObject id:1283: DEBUG
+MapObject registered: 00170003 MapObject id:1314: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Southeast of Prontera.csv using format text/csv
+MapObject registered: FFF70005 MapObject id:1068: DEBUG
+MapObject registered: FFF9FFF5 MapObject id:1079: DEBUG
+MapObject registered: FFFFFFFE MapObject id:1080: DEBUG
+MapObject registered: 0005FFFD MapObject id:1081: DEBUG
+MapObject registered: FFFFFFF9 MapObject id:1082: DEBUG
+MapObject registered: 0001FFF8 MapObject id:1089: DEBUG
+MapObject registered: FFF70004 MapObject id:1099: DEBUG
+MapObject registered: FFF3FFF4 MapObject id:1152: DEBUG
+MapObject registered: FFF3000B MapObject id:1153: DEBUG
+MapObject registered: FFF80005 MapObject id:1164: DEBUG
+MapObject registered: FFFD0008 MapObject id:1215: DEBUG
+MapObject registered: FFF7FFF9 MapObject id:1283: DEBUG
+MapObject registered: 0003FFF5 MapObject id:1284: DEBUG
+MapObject registered: 0000FFFF MapObject id:1285: DEBUG
+MapObject registered: 000A0007 MapObject id:1286: DEBUG
+MapObject registered: FFF70005 MapObject id:1287: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Southwest of Prontera.csv using format text/csv
+MapObject registered: FFF8FFFE MapObject id:1154: DEBUG
+MapObject registered: FFFA0006 MapObject id:1155: DEBUG
+MapObject registered: 00050002 MapObject id:1216: DEBUG
+MapObject registered: FFF6FFFA MapObject id:1288: DEBUG
+MapObject registered: 0005FFFD MapObject id:1290: DEBUG
+MapObject registered: FFFA0007 MapObject id:1289: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Adventurers Training Center.csv using format text/csv
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00010000 MapObject id:1143: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/adventures_trainingsground.csv using format text/csv
+MapObject registered: 00010004 MapObject id:1142: DEBUG
+MapObject registered: 00040001 MapObject id:1142: DEBUG
+MapObject registered: FFFF0000 MapObject id:1142: DEBUG
+MapObject registered: 0000FFFA MapObject id:48: DEBUG
+MapObject registered: 00030004 MapObject id:5000: DEBUG
+MapObject registered: 00030004 MapObject id:5000: DEBUG
+MapObject registered: 0000FFF9 MapObject id:9: DEBUG
+MapObject registered: 0000FFF9 MapObject id:10: DEBUG
+MapObject registered: 0000FFF9 MapObject id:11: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Alfheim.csv using format text/csv
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito East Field.csv using format text/csv
+MapObject registered: FFFFFFF6 MapObject id:1123: DEBUG
+MapObject registered: 00010000 MapObject id:1123: DEBUG
+MapObject registered: FFFC0007 MapObject id:1123: DEBUG
+MapObject registered: FFFFFFF6 MapObject id:1131: DEBUG
+MapObject registered: 00010000 MapObject id:1131: DEBUG
+MapObject registered: FFFC0008 MapObject id:1131: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito Harbor.csv using format text/csv
+MapObject registered: FFFF0002 MapObject id:35: DEBUG
+MapObject registered: FFFF0002 MapObject id:35: DEBUG
+MapObject registered: FFFF0002 MapObject id:45: DEBUG
+MapObject registered: FFFE0003 MapObject id:57: DEBUG
+MapObject registered: FFFE0000 MapObject id:1123: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1123: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1126: DEBUG
+MapObject registered: FFFE0000 MapObject id:1131: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1131: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1131: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1131: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFF MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFF MapObject id:5005: DEBUG
+MapObject registered: FFFF0000 MapObject id:5005: DEBUG
+MapObject registered: FFFF0000 MapObject id:5005: DEBUG
+MapObject registered: FFFF0001 MapObject id:5005: DEBUG
+MapObject registered: FFFF0001 MapObject id:5005: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito Town.csv using format text/csv
+MapObject registered: FFFC0001 MapObject id:1123: DEBUG
+MapObject registered: FFFAFFFD MapObject id:1123: DEBUG
+MapObject registered: FFF90000 MapObject id:1123: DEBUG
+MapObject registered: FFF80001 MapObject id:1123: DEBUG
+MapObject registered: FFFC0001 MapObject id:1131: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1131: DEBUG
+MapObject registered: FFF90000 MapObject id:1131: DEBUG
+MapObject registered: FFF80001 MapObject id:1131: DEBUG
+MapObject registered: FFFB0002 MapObject id:38: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1126: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1126: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito West Field.csv using format text/csv
+MapObject registered: FFF7FFF6 MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1123: DEBUG
+MapObject registered: FFFF0008 MapObject id:1123: DEBUG
+MapObject registered: FFF7FFF7 MapObject id:1131: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1131: DEBUG
+MapObject registered: FFFF0008 MapObject id:1131: DEBUG
+MapObject registered: FFFB0009 MapObject id:37: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/hodehimes.csv using format text/csv
+MapObject registered: FFFEFFFF MapObject id:13: DEBUG
+MapObject registered: 0000FFFF MapObject id:15: DEBUG
+MapObject registered: 00010000 MapObject id:1123: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1123: DEBUG
+MapObject registered: FFFF0000 MapObject id:1123: DEBUG
+MapObject registered: FFFC0000 MapObject id:1123: DEBUG
+MapObject registered: 00010001 MapObject id:1124: DEBUG
+MapObject registered: 00010000 MapObject id:1125: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1125: DEBUG
+MapObject registered: FFFE0000 MapObject id:1125: DEBUG
+MapObject registered: FFFC0000 MapObject id:1125: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFC MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0000 MapObject id:5000: DEBUG
+MapObject registered: FFFD0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00010000 MapObject id:5001: DEBUG
+MapObject registered: FFFFFFFE MapObject id:5001: DEBUG
+MapObject registered: FFFFFFFE MapObject id:5001: DEBUG
+MapObject registered: 00020001 MapObject id:5001: DEBUG
+MapObject registered: 00020002 MapObject id:5001: DEBUG
+MapObject registered: 00020001 MapObject id:5001: DEBUG
+MapObject registered: 00020002 MapObject id:5001: DEBUG
+MapObject registered: FFFDFFFF MapObject id:5002: DEBUG
+MapObject registered: FFFDFFFF MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Northwest of Prontera.csv using format text/csv
+MapObject registered: 0009000A MapObject id:1123: DEBUG
+MapObject registered: FFFDFFFB MapObject id:1123: DEBUG
+MapObject registered: FFF70008 MapObject id:1123: DEBUG
+MapObject registered: FFF70007 MapObject id:1127: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1127: DEBUG
+MapObject registered: 0009000A MapObject id:1127: DEBUG
+MapObject registered: 000A0003 MapObject id:5: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/outside_hodehimes.csv using format text/csv
+MapObject registered: FFFFFFFB MapObject id:16: DEBUG
+MapObject registered: FFFC0002 MapObject id:1125: DEBUG
+MapObject registered: FFFC0002 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: 000C0003 MapObject id:14: DEBUG
+MapObject registered: FFFCFFFE MapObject id:28: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Prontera.csv using format text/csv
+MapObject registered: 00120002 MapObject id:3: DEBUG
+MapObject registered: 00120002 MapObject id:1123: DEBUG
+MapObject registered: 00130005 MapObject id:1123: DEBUG
+MapObject registered: 00160004 MapObject id:1123: DEBUG
+MapObject registered: 00180003 MapObject id:1123: DEBUG
+MapObject registered: 00150001 MapObject id:1123: DEBUG
+MapObject registered: 000D0004 MapObject id:1123: DEBUG
+MapObject registered: 00120003 MapObject id:1124: DEBUG
+MapObject registered: 00120002 MapObject id:1127: DEBUG
+MapObject registered: 00130005 MapObject id:1127: DEBUG
+MapObject registered: 00160004 MapObject id:1127: DEBUG
+MapObject registered: 00180003 MapObject id:1127: DEBUG
+MapObject registered: 00150001 MapObject id:1127: DEBUG
+MapObject registered: 000D0004 MapObject id:1127: DEBUG
+MapObject registered: 00110004 MapObject id:5000: DEBUG
+MapObject registered: 00110004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00110003 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00120002 MapObject id:5003: DEBUG
+MapObject registered: 00120002 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00130003 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00140002 MapObject id:5003: DEBUG
+MapObject registered: 00140002 MapObject id:5003: DEBUG
+MapObject registered: 00140003 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00160004 MapObject id:5003: DEBUG
+MapObject registered: 00160004 MapObject id:5003: DEBUG
+MapObject registered: 00150003 MapObject id:5003: DEBUG
+MapObject registered: 00150003 MapObject id:5003: DEBUG
+MapObject registered: 00150002 MapObject id:5003: DEBUG
+MapObject registered: 00160002 MapObject id:5003: DEBUG
+MapObject registered: 00150002 MapObject id:5003: DEBUG
+MapObject registered: 00160002 MapObject id:5003: DEBUG
+MapObject registered: 00180002 MapObject id:5003: DEBUG
+MapObject registered: 00180002 MapObject id:5003: DEBUG
+MapObject registered: 00140003 MapObject id:5003: DEBUG
+MapObject registered: 000B0002 MapObject id:5003: DEBUG
+MapObject registered: 000B0002 MapObject id:5003: DEBUG
+MapObject registered: 000B0003 MapObject id:5003: DEBUG
+MapObject registered: 000B0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0003 MapObject id:5003: DEBUG
+MapObject registered: 000C0003 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Southeast of Prontera.csv using format text/csv
+MapObject registered: FFF8FFFB MapObject id:1123: DEBUG
+MapObject registered: FFFC0009 MapObject id:1123: DEBUG
+MapObject registered: 0000FFFD MapObject id:1123: DEBUG
+MapObject registered: FFF8FFFC MapObject id:1127: DEBUG
+MapObject registered: FFFB0009 MapObject id:1127: DEBUG
+MapObject registered: 0000FFFC MapObject id:1127: DEBUG
+MapObject registered: FFF50000 MapObject id:1: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF8FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF9 MapObject id:31: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:31: DEBUG
+MapObject registered: FFFAFFF9 MapObject id:31: DEBUG
+MapObject registered: FFF8FFF6 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF8FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF9FFF9 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF6FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:32: DEBUG
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/adventures-traininsground.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/adventures_trainingsground.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim Dungeon.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim Forest.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim poro island.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Blue Echo.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B1.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B2.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B3.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cognito Dungeon.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/cognito_eastfield.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/cognito_westfield.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Echo of Forests.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/outside_hodehimes.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Culverts.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Northwest Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera South East Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Southwest Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera.csv using format text/csv
+CharacterConfigurationFactory: verbose   Loading character information from: ~/character-template.csv using format text/csv
+Calling loaded-event on factories & managers: verbose   HostContext
+NetworkManager: error     Cannot create connection with authentication server
+Database: error     Parameter '?Job' must be defined.
+Database: error     player skill-data of player with id 19 is missing
+Database: error     player specialskill-data of player with id 19 is missing
+Database: error     Parameter '?Job' must be defined.
+Database: error     player skill-data of player with id 19 is missing
+Database: error     player specialskill-data of player with id 19 is missing
+Network: Connection accepted from: 127.0.0.1:49549
+Database: error     player skill-data of player with id 19 is missing
+Database: error     player specialskill-data of player with id 19 is missing
+"Saga.Map.exe",Warning,0,"System.NullReferenceException: Object reference not set to an instance of an object.
+   at Saga.Map.Client.Client.WorldConnectionError() in c:\Users\usuario\Documents\GitHub\SagaRev\Saga.Map\Netwok\Client\Client-Core.cs:line 558
+   at Saga.Map.Client.Client.Login(CMSG_LOGIN cpkt) in c:\Users\usuario\Documents\GitHub\SagaRev\Saga.Map\Netwok\Client\Client-Core.cs:line 137",,,,,,,
+Network: Authentication server disconnected
+#############################################################################
+Saga Map Server starting on: 25/04/2015 02:02:24 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 9744384
+OS Bit Version: 32 Bit
+#############################################################################
+XmlSections: warning   Section Saga.Manager.ConsoleSettings was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.NetworkSettings was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.WorldTasks was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Database was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Quest was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Scripting was not found using default manager/factory
+Calling initialize-event on factories & managers: verbose   HostContext
+Calling beforequery-event on factories & managers: verbose   HostContext
+Calling afterquery-event on factories & managers: verbose   HostContext
+Calling onload-event on factories & managers: verbose   HostContext
+database: ïnfo      Populating database pool with connections
+ScriptCompiler: verbose   Starting to compile scripting assembly: ../Saga.Scripting
+ScriptCompiler: verbose   Generate compile parameters
+ScriptCompiler: ïnfo      Scripts compiled no errors
+ScriptCompiler: warning   scripting assembly was compiled
+ScriptCompiler: verbose   Starting to compile scripting assembly: 158F4F343726CA477234AE4407241009, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Event Manager: verbose   Loading event information from: ~/eventlist.csv using format text/csv
+AdditionFactory: warning   Method not found Saga.Spells.Additions.ADDITION_SPPARTYRECOVERAMOUNT
+AdditionFactory: warning   Method not found Saga.Spells.Additions.ADDITION_MAGICALATTACKMAX
+AdditionFactory: verbose   Loading addition information from: ~/Addition_t.xml using format text/xml
+PortalFactory: verbose   Loading portal information from: ~/portal_data.csv using format text/csv
+SpellFactory: verbose   Loading spell information from: ~/spell_data.xml using format text/xml
+SpellFactory: verbose   Clear method lookup table
+StatusByLevelFactory: verbose   Loading statusbylevel information from: ~/experience.csv using format text/csv
+WarpFactory: verbose   Loading warp information from: ~/warp_data.csv using format text/csv
+ZoneFactory: verbose   Loading zone information from: ~/zone_data.csv using format text/csv
+"Saga.Map.exe",Error,0,"Cannot load heightmap from file: C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/heightmaps\alf_f00.hmap",,,,,,,
+ItemFactory: verbose   Loading item information from: ~/item_data.xml using format text/xml
+WeaponFactory: verbose   Loading weapon information from: ~/weapon_data.csv using format text/csv
+TemplateFactory: verbose   Loading portal information from: ~/npc_templates.csv using format text/csv
+TemplateFactory: verbose   Loading portal information from: ~/item_templates.csv using format text/csv
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Adventurers Training Center.csv using format text/csv
+MapObject registered: FFFE0002 MapObject id:1173: DEBUG
+MapObject registered: 00010002 MapObject id:1174: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1175: DEBUG
+MapObject registered: 0001FFFB MapObject id:1270: DEBUG
+MapObject registered: 00010000 MapObject id:1271: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/adventures_trainingsground.csv using format text/csv
+MapObject registered: 00000002 MapObject id:1145: DEBUG
+MapObject registered: 00040000 MapObject id:1064: DEBUG
+MapObject registered: FFFC0002 MapObject id:1149: DEBUG
+MapObject registered: 00040001 MapObject id:1146: DEBUG
+MapObject registered: FFFFFFFB MapObject id:1063: DEBUG
+MapObject registered: 0004FFFE MapObject id:1139: DEBUG
+MapObject registered: 00040002 MapObject id:1147: DEBUG
+MapObject registered: FFFD0002 MapObject id:1140: DEBUG
+MapObject registered: 00020004 MapObject id:1148: DEBUG
+MapObject registered: 00030004 MapObject id:1213: DEBUG
+MapObject registered: 0003FFFF MapObject id:1213: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim Forest.csv using format text/csv
+MapObject registered: FFFFFFF3 MapObject id:1107: DEBUG
+MapObject registered: FFFFFFF3 MapObject id:1109: DEBUG
+MapObject registered: FFFFFFF4 MapObject id:1235: DEBUG
+MapObject registered: 00010000 MapObject id:1248: DEBUG
+MapObject registered: FFFAFFF8 MapObject id:1309: DEBUG
+MapObject registered: FFFF0007 MapObject id:1310: DEBUG
+MapObject registered: 0009FFF7 MapObject id:1311: DEBUG
+MapObject registered: 00040000 MapObject id:1312: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim Poro Island.csv using format text/csv
+MapObject registered: 0001FFF9 MapObject id:1249: DEBUG
+MapObject registered: 0002FFF9 MapObject id:1108: DEBUG
+MapObject registered: 0002FFF9 MapObject id:1236: DEBUG
+MapObject registered: 0002FFFB MapObject id:1237: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim.csv using format text/csv
+MapObject registered: 00010000 MapObject id:1015: DEBUG
+MapObject registered: 0002FFFF MapObject id:1016: DEBUG
+MapObject registered: 0001FFFE MapObject id:1017: DEBUG
+MapObject registered: 0001FFFE MapObject id:1017: DEBUG
+MapObject registered: 0001FFFE MapObject id:1018: DEBUG
+MapObject registered: 00000002 MapObject id:1019: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1020: DEBUG
+MapObject registered: 00000002 MapObject id:1101: DEBUG
+MapObject registered: FFFBFFFD MapObject id:1102: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1104: DEBUG
+MapObject registered: 00000000 MapObject id:1105: DEBUG
+MapObject registered: FFFDFFFD MapObject id:1106: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1110: DEBUG
+MapObject registered: FFFAFFFA MapObject id:1111: DEBUG
+MapObject registered: 00010001 MapObject id:1239: DEBUG
+MapObject registered: 00010001 MapObject id:1240: DEBUG
+MapObject registered: 00010001 MapObject id:1241: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1242: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1243: DEBUG
+MapObject registered: FFFCFFFC MapObject id:1244: DEBUG
+MapObject registered: FFFCFFFC MapObject id:1245: DEBUG
+MapObject registered: FFFAFFFD MapObject id:1246: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1247: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1250: DEBUG
+MapObject registered: FFFAFFFA MapObject id:1250: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1250: DEBUG
+MapObject registered: 00020000 MapObject id:1250: DEBUG
+MapObject registered: 00000000 MapObject id:1250: DEBUG
+MapObject registered: 00000003 MapObject id:1250: DEBUG
+MapObject registered: 00010003 MapObject id:1250: DEBUG
+MapObject registered: 00000004 MapObject id:1250: DEBUG
+MapObject registered: 00010001 MapObject id:1250: DEBUG
+MapObject registered: 00030002 MapObject id:1250: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1307: DEBUG
+MapObject registered: 00000000 MapObject id:1308: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1316: DEBUG
+MapObject registered: 0001FFFF MapObject id:1327: DEBUG
+MapObject registered: 0002FFFF MapObject id:1328: DEBUG
+MapObject registered: 0000FFFE MapObject id:1329: DEBUG
+MapObject registered: 0000FFFF MapObject id:1330: DEBUG
+MapObject registered: 0000FFFE MapObject id:1331: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1332: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1333: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1334: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1335: DEBUG
+MapObject registered: FFFAFFFB MapObject id:1336: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito East Field.csv using format text/csv
+MapObject registered: FFF90008 MapObject id:1028: DEBUG
+MapObject registered: FFFC0008 MapObject id:1123: DEBUG
+MapObject registered: FFFB0007 MapObject id:1187: DEBUG
+MapObject registered: FFFA000A MapObject id:1199: DEBUG
+MapObject registered: 00050000 MapObject id:1219: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1232: DEBUG
+MapObject registered: FFFEFFF7 MapObject id:1301: DEBUG
+MapObject registered: FFFC0007 MapObject id:1302: DEBUG
+MapObject registered: 00070001 MapObject id:1303: DEBUG
+MapObject registered: 000D0009 MapObject id:1208: DEBUG
+MapObject registered: 000A0007 MapObject id:1113: DEBUG
+MapObject registered: 0003000B MapObject id:1116: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito Harbor.csv using format text/csv
+MapObject registered: FFFEFFFD MapObject id:1021: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1023: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1025: DEBUG
+MapObject registered: FFFFFFFE MapObject id:1026: DEBUG
+MapObject registered: FFFA0000 MapObject id:1121: DEBUG
+MapObject registered: FFFAFFFC MapObject id:1128: DEBUG
+MapObject registered: FFFE0001 MapObject id:1135: DEBUG
+MapObject registered: FFFD0000 MapObject id:1176: DEBUG
+MapObject registered: FFF8FFFF MapObject id:1178: DEBUG
+MapObject registered: FFF9FFFE MapObject id:1179: DEBUG
+MapObject registered: FFFF0000 MapObject id:1181: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1185: DEBUG
+MapObject registered: FFF90001 MapObject id:1186: DEBUG
+MapObject registered: FFF90001 MapObject id:1188: DEBUG
+MapObject registered: FFF90001 MapObject id:1189: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1190: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1191: DEBUG
+MapObject registered: FFFBFFFD MapObject id:1193: DEBUG
+MapObject registered: FFFEFFFF MapObject id:1194: DEBUG
+MapObject registered: FFF9FFFD MapObject id:1204: DEBUG
+MapObject registered: FFFE0001 MapObject id:1209: DEBUG
+MapObject registered: FFFF0002 MapObject id:1210: DEBUG
+MapObject registered: FFF9FFFD MapObject id:1231: DEBUG
+MapObject registered: FFF8FFFD MapObject id:1296: DEBUG
+MapObject registered: 00000000 MapObject id:1315: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito Town.csv using format text/csv
+MapObject registered: FFFB0000 MapObject id:1022: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1024: DEBUG
+MapObject registered: FFFCFFFD MapObject id:1053: DEBUG
+MapObject registered: FFFCFFFE MapObject id:1054: DEBUG
+MapObject registered: FFFA0001 MapObject id:1057: DEBUG
+MapObject registered: FFFA0001 MapObject id:1058: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1127: DEBUG
+MapObject registered: FFFF0001 MapObject id:1177: DEBUG
+MapObject registered: FFF90000 MapObject id:1180: DEBUG
+MapObject registered: FFFB0001 MapObject id:1182: DEBUG
+MapObject registered: FFF90001 MapObject id:1183: DEBUG
+MapObject registered: FFFB0000 MapObject id:1184: DEBUG
+MapObject registered: FFFB0001 MapObject id:1192: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1196: DEBUG
+MapObject registered: FFFC0000 MapObject id:1197: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1200: DEBUG
+MapObject registered: FFF8FFFE MapObject id:1201: DEBUG
+MapObject registered: FFFDFFFF MapObject id:1202: DEBUG
+MapObject registered: FFFD0001 MapObject id:1203: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1211: DEBUG
+MapObject registered: FFFC0001 MapObject id:1230: DEBUG
+MapObject registered: FFF8FFFD MapObject id:1297: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1317: DEBUG
+MapObject registered: FFFA0000 MapObject id:1319: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1321: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito West Field.csv using format text/csv
+MapObject registered: FFF4FFF3 MapObject id:1112: DEBUG
+MapObject registered: FFF5FFF5 MapObject id:1198: DEBUG
+MapObject registered: FFF6FFF5 MapObject id:1206: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1218: DEBUG
+MapObject registered: FFF5FFF5 MapObject id:1298: DEBUG
+MapObject registered: 0006FFFB MapObject id:1299: DEBUG
+MapObject registered: FFFB0007 MapObject id:1300: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Emir Cave Lv2.csv using format text/csv
+MapObject registered: 00080002 MapObject id:1224: DEBUG
+MapObject registered: 00080002 MapObject id:1225: DEBUG
+MapObject registered: 00080001 MapObject id:1337: DEBUG
+MapObject registered: 00080002 MapObject id:1338: DEBUG
+MapObject registered: 00070002 MapObject id:1342: DEBUG
+MapObject registered: 00070001 MapObject id:1341: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Forest of Echoes.csv using format text/csv
+MapObject registered: FFF50003 MapObject id:1251: DEBUG
+MapObject registered: FFF50003 MapObject id:1252: DEBUG
+MapObject registered: FFF50004 MapObject id:1253: DEBUG
+MapObject registered: FFF40003 MapObject id:1254: DEBUG
+MapObject registered: 0005FFF6 MapObject id:1256: DEBUG
+MapObject registered: FFF50004 MapObject id:1257: DEBUG
+MapObject registered: FFF50004 MapObject id:1258: DEBUG
+MapObject registered: FFF40003 MapObject id:1259: DEBUG
+MapObject registered: FFF50003 MapObject id:1260: DEBUG
+MapObject registered: FFF40003 MapObject id:1261: DEBUG
+MapObject registered: FFF50003 MapObject id:1262: DEBUG
+MapObject registered: FFF50003 MapObject id:1263: DEBUG
+MapObject registered: FFF50004 MapObject id:1264: DEBUG
+MapObject registered: FFF60002 MapObject id:1265: DEBUG
+MapObject registered: FFF60003 MapObject id:1266: DEBUG
+MapObject registered: FFF60003 MapObject id:1267: DEBUG
+MapObject registered: FFF40003 MapObject id:1268: DEBUG
+MapObject registered: FFF60002 MapObject id:1304: DEBUG
+MapObject registered: 0000FFF6 MapObject id:1305: DEBUG
+MapObject registered: 00030001 MapObject id:1306: DEBUG
+MapObject registered: FFF50003 MapObject id:1322: DEBUG
+MapObject registered: FFF50003 MapObject id:1323: DEBUG
+MapObject registered: FFF50003 MapObject id:1324: DEBUG
+MapObject registered: FFF50003 MapObject id:1325: DEBUG
+MapObject registered: FFF50004 MapObject id:1326: DEBUG
+MapObject registered: FFF60003 MapObject id:1343: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/hodehimes.csv using format text/csv
+MapObject registered: FFFEFFFD MapObject id:1000: DEBUG
+MapObject registered: FFFEFFFF MapObject id:1001: DEBUG
+MapObject registered: FFFC0000 MapObject id:1002: DEBUG
+MapObject registered: FFFC0003 MapObject id:1003: DEBUG
+MapObject registered: 00020001 MapObject id:1004: DEBUG
+MapObject registered: 0000FFFF MapObject id:1005: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1049: DEBUG
+MapObject registered: FFFC0000 MapObject id:1059: DEBUG
+MapObject registered: FFFFFFFC MapObject id:1062: DEBUG
+MapObject registered: FFFD0000 MapObject id:1065: DEBUG
+MapObject registered: 00000002 MapObject id:1067: DEBUG
+MapObject registered: 00010002 MapObject id:1165: DEBUG
+MapObject registered: FFFF0000 MapObject id:1166: DEBUG
+MapObject registered: FFFC0001 MapObject id:1167: DEBUG
+MapObject registered: 0000FFFE MapObject id:1168: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1170: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1226: DEBUG
+MapObject registered: FFFC0000 MapObject id:1228: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1272: DEBUG
+MapObject registered: FFFD0000 MapObject id:1273: DEBUG
+MapObject registered: 00010000 MapObject id:1274: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1313: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Northwest of Prontera.csv using format text/csv
+MapObject registered: 000B0002 MapObject id:1092: DEBUG
+MapObject registered: 0007FFF5 MapObject id:1095: DEBUG
+MapObject registered: 0000FFFC MapObject id:1097: DEBUG
+MapObject registered: 0001000C MapObject id:1098: DEBUG
+MapObject registered: 00070004 MapObject id:1217: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1292: DEBUG
+MapObject registered: FFF80006 MapObject id:1293: DEBUG
+MapObject registered: 0004FFFF MapObject id:1294: DEBUG
+MapObject registered: 000A000A MapObject id:1295: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/outside_hodehimes.csv using format text/csv
+MapObject registered: FFFCFFFE MapObject id:1060: DEBUG
+MapObject registered: FFF8FFF4 MapObject id:1066: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1143: DEBUG
+MapObject registered: 00030009 MapObject id:1144: DEBUG
+MapObject registered: FFFCFFFE MapObject id:1171: DEBUG
+MapObject registered: FFF90009 MapObject id:1214: DEBUG
+MapObject registered: FFF8FFF5 MapObject id:1275: DEBUG
+MapObject registered: FFF8000A MapObject id:1276: DEBUG
+MapObject registered: 0008FFF9 MapObject id:1277: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1278: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Prontera.csv using format text/csv
+MapObject registered: 00110002 MapObject id:1006: DEBUG
+MapObject registered: 00150005 MapObject id:1007: DEBUG
+MapObject registered: 00170003 MapObject id:1008: DEBUG
+MapObject registered: 00140009 MapObject id:1009: DEBUG
+MapObject registered: 00120002 MapObject id:1010: DEBUG
+MapObject registered: 00120004 MapObject id:1011: DEBUG
+MapObject registered: 00120003 MapObject id:1012: DEBUG
+MapObject registered: 00100004 MapObject id:1013: DEBUG
+MapObject registered: FFFF0003 MapObject id:1014: DEBUG
+MapObject registered: 00130003 MapObject id:1050: DEBUG
+MapObject registered: 00130003 MapObject id:1051: DEBUG
+MapObject registered: 00150002 MapObject id:1055: DEBUG
+MapObject registered: 00140002 MapObject id:1056: DEBUG
+MapObject registered: 00160004 MapObject id:1069: DEBUG
+MapObject registered: 00160004 MapObject id:1070: DEBUG
+MapObject registered: 00110003 MapObject id:1071: DEBUG
+MapObject registered: 000A0003 MapObject id:1072: DEBUG
+MapObject registered: 00030003 MapObject id:1073: DEBUG
+MapObject registered: 00060003 MapObject id:1074: DEBUG
+MapObject registered: 00100003 MapObject id:1075: DEBUG
+MapObject registered: 00130003 MapObject id:1076: DEBUG
+MapObject registered: 00130003 MapObject id:1077: DEBUG
+MapObject registered: 00160004 MapObject id:1078: DEBUG
+MapObject registered: 00120003 MapObject id:1083: DEBUG
+MapObject registered: 000C0001 MapObject id:1084: DEBUG
+MapObject registered: 00050002 MapObject id:1085: DEBUG
+MapObject registered: 00140009 MapObject id:1090: DEBUG
+MapObject registered: 00140009 MapObject id:1091: DEBUG
+MapObject registered: 00180003 MapObject id:1093: DEBUG
+MapObject registered: 00180003 MapObject id:1094: DEBUG
+MapObject registered: 00140000 MapObject id:1096: DEBUG
+MapObject registered: 00010005 MapObject id:1151: DEBUG
+MapObject registered: 00160001 MapObject id:1156: DEBUG
+MapObject registered: 00150004 MapObject id:1158: DEBUG
+MapObject registered: 00130002 MapObject id:1159: DEBUG
+MapObject registered: 00160002 MapObject id:1160: DEBUG
+MapObject registered: 00140005 MapObject id:1161: DEBUG
+MapObject registered: 00140002 MapObject id:1162: DEBUG
+MapObject registered: 00140004 MapObject id:1163: DEBUG
+MapObject registered: 00100003 MapObject id:1223: DEBUG
+MapObject registered: 00150001 MapObject id:1229: DEBUG
+MapObject registered: 000A0003 MapObject id:1279: DEBUG
+MapObject registered: 00120003 MapObject id:1280: DEBUG
+MapObject registered: 00140009 MapObject id:1281: DEBUG
+MapObject registered: 00180002 MapObject id:1282: DEBUG
+MapObject registered: FFF7FFF9 MapObject id:1283: DEBUG
+MapObject registered: 00170003 MapObject id:1314: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Southeast of Prontera.csv using format text/csv
+MapObject registered: FFF70005 MapObject id:1068: DEBUG
+MapObject registered: FFF9FFF5 MapObject id:1079: DEBUG
+MapObject registered: FFFFFFFE MapObject id:1080: DEBUG
+MapObject registered: 0005FFFD MapObject id:1081: DEBUG
+MapObject registered: FFFFFFF9 MapObject id:1082: DEBUG
+MapObject registered: 0001FFF8 MapObject id:1089: DEBUG
+MapObject registered: FFF70004 MapObject id:1099: DEBUG
+MapObject registered: FFF3FFF4 MapObject id:1152: DEBUG
+MapObject registered: FFF3000B MapObject id:1153: DEBUG
+MapObject registered: FFF80005 MapObject id:1164: DEBUG
+MapObject registered: FFFD0008 MapObject id:1215: DEBUG
+MapObject registered: FFF7FFF9 MapObject id:1283: DEBUG
+MapObject registered: 0003FFF5 MapObject id:1284: DEBUG
+MapObject registered: 0000FFFF MapObject id:1285: DEBUG
+MapObject registered: 000A0007 MapObject id:1286: DEBUG
+MapObject registered: FFF70005 MapObject id:1287: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Southwest of Prontera.csv using format text/csv
+MapObject registered: FFF8FFFE MapObject id:1154: DEBUG
+MapObject registered: FFFA0006 MapObject id:1155: DEBUG
+MapObject registered: 00050002 MapObject id:1216: DEBUG
+MapObject registered: FFF6FFFA MapObject id:1288: DEBUG
+MapObject registered: 0005FFFD MapObject id:1290: DEBUG
+MapObject registered: FFFA0007 MapObject id:1289: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Adventurers Training Center.csv using format text/csv
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00010000 MapObject id:1143: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/adventures_trainingsground.csv using format text/csv
+MapObject registered: 00010004 MapObject id:1142: DEBUG
+MapObject registered: 00040001 MapObject id:1142: DEBUG
+MapObject registered: FFFF0000 MapObject id:1142: DEBUG
+MapObject registered: 0000FFFA MapObject id:48: DEBUG
+MapObject registered: 00030004 MapObject id:5000: DEBUG
+MapObject registered: 00030004 MapObject id:5000: DEBUG
+MapObject registered: 0000FFF9 MapObject id:9: DEBUG
+MapObject registered: 0000FFF9 MapObject id:10: DEBUG
+MapObject registered: 0000FFF9 MapObject id:11: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Alfheim.csv using format text/csv
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito East Field.csv using format text/csv
+MapObject registered: FFFFFFF6 MapObject id:1123: DEBUG
+MapObject registered: 00010000 MapObject id:1123: DEBUG
+MapObject registered: FFFC0007 MapObject id:1123: DEBUG
+MapObject registered: FFFFFFF6 MapObject id:1131: DEBUG
+MapObject registered: 00010000 MapObject id:1131: DEBUG
+MapObject registered: FFFC0008 MapObject id:1131: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito Harbor.csv using format text/csv
+MapObject registered: FFFF0002 MapObject id:35: DEBUG
+MapObject registered: FFFF0002 MapObject id:35: DEBUG
+MapObject registered: FFFF0002 MapObject id:45: DEBUG
+MapObject registered: FFFE0003 MapObject id:57: DEBUG
+MapObject registered: FFFE0000 MapObject id:1123: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1123: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1126: DEBUG
+MapObject registered: FFFE0000 MapObject id:1131: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1131: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1131: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1131: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFF MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFF MapObject id:5005: DEBUG
+MapObject registered: FFFF0000 MapObject id:5005: DEBUG
+MapObject registered: FFFF0000 MapObject id:5005: DEBUG
+MapObject registered: FFFF0001 MapObject id:5005: DEBUG
+MapObject registered: FFFF0001 MapObject id:5005: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito Town.csv using format text/csv
+MapObject registered: FFFC0001 MapObject id:1123: DEBUG
+MapObject registered: FFFAFFFD MapObject id:1123: DEBUG
+MapObject registered: FFF90000 MapObject id:1123: DEBUG
+MapObject registered: FFF80001 MapObject id:1123: DEBUG
+MapObject registered: FFFC0001 MapObject id:1131: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1131: DEBUG
+MapObject registered: FFF90000 MapObject id:1131: DEBUG
+MapObject registered: FFF80001 MapObject id:1131: DEBUG
+MapObject registered: FFFB0002 MapObject id:38: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1126: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1126: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito West Field.csv using format text/csv
+MapObject registered: FFF7FFF6 MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1123: DEBUG
+MapObject registered: FFFF0008 MapObject id:1123: DEBUG
+MapObject registered: FFF7FFF7 MapObject id:1131: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1131: DEBUG
+MapObject registered: FFFF0008 MapObject id:1131: DEBUG
+MapObject registered: FFFB0009 MapObject id:37: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/hodehimes.csv using format text/csv
+MapObject registered: FFFEFFFF MapObject id:13: DEBUG
+MapObject registered: 0000FFFF MapObject id:15: DEBUG
+MapObject registered: 00010000 MapObject id:1123: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1123: DEBUG
+MapObject registered: FFFF0000 MapObject id:1123: DEBUG
+MapObject registered: FFFC0000 MapObject id:1123: DEBUG
+MapObject registered: 00010001 MapObject id:1124: DEBUG
+MapObject registered: 00010000 MapObject id:1125: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1125: DEBUG
+MapObject registered: FFFE0000 MapObject id:1125: DEBUG
+MapObject registered: FFFC0000 MapObject id:1125: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFC MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0000 MapObject id:5000: DEBUG
+MapObject registered: FFFD0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00010000 MapObject id:5001: DEBUG
+MapObject registered: FFFFFFFE MapObject id:5001: DEBUG
+MapObject registered: FFFFFFFE MapObject id:5001: DEBUG
+MapObject registered: 00020001 MapObject id:5001: DEBUG
+MapObject registered: 00020002 MapObject id:5001: DEBUG
+MapObject registered: 00020001 MapObject id:5001: DEBUG
+MapObject registered: 00020002 MapObject id:5001: DEBUG
+MapObject registered: FFFDFFFF MapObject id:5002: DEBUG
+MapObject registered: FFFDFFFF MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Northwest of Prontera.csv using format text/csv
+MapObject registered: 0009000A MapObject id:1123: DEBUG
+MapObject registered: FFFDFFFB MapObject id:1123: DEBUG
+MapObject registered: FFF70008 MapObject id:1123: DEBUG
+MapObject registered: FFF70007 MapObject id:1127: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1127: DEBUG
+MapObject registered: 0009000A MapObject id:1127: DEBUG
+MapObject registered: 000A0003 MapObject id:5: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/outside_hodehimes.csv using format text/csv
+MapObject registered: FFFFFFFB MapObject id:16: DEBUG
+MapObject registered: FFFC0002 MapObject id:1125: DEBUG
+MapObject registered: FFFC0002 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: 000C0003 MapObject id:14: DEBUG
+MapObject registered: FFFCFFFE MapObject id:28: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Prontera.csv using format text/csv
+MapObject registered: 00120002 MapObject id:3: DEBUG
+MapObject registered: 00120002 MapObject id:1123: DEBUG
+MapObject registered: 00130005 MapObject id:1123: DEBUG
+MapObject registered: 00160004 MapObject id:1123: DEBUG
+MapObject registered: 00180003 MapObject id:1123: DEBUG
+MapObject registered: 00150001 MapObject id:1123: DEBUG
+MapObject registered: 000D0004 MapObject id:1123: DEBUG
+MapObject registered: 00120003 MapObject id:1124: DEBUG
+MapObject registered: 00120002 MapObject id:1127: DEBUG
+MapObject registered: 00130005 MapObject id:1127: DEBUG
+MapObject registered: 00160004 MapObject id:1127: DEBUG
+MapObject registered: 00180003 MapObject id:1127: DEBUG
+MapObject registered: 00150001 MapObject id:1127: DEBUG
+MapObject registered: 000D0004 MapObject id:1127: DEBUG
+MapObject registered: 00110004 MapObject id:5000: DEBUG
+MapObject registered: 00110004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00110003 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00120002 MapObject id:5003: DEBUG
+MapObject registered: 00120002 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00130003 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00140002 MapObject id:5003: DEBUG
+MapObject registered: 00140002 MapObject id:5003: DEBUG
+MapObject registered: 00140003 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00160004 MapObject id:5003: DEBUG
+MapObject registered: 00160004 MapObject id:5003: DEBUG
+MapObject registered: 00150003 MapObject id:5003: DEBUG
+MapObject registered: 00150003 MapObject id:5003: DEBUG
+MapObject registered: 00150002 MapObject id:5003: DEBUG
+MapObject registered: 00160002 MapObject id:5003: DEBUG
+MapObject registered: 00150002 MapObject id:5003: DEBUG
+MapObject registered: 00160002 MapObject id:5003: DEBUG
+MapObject registered: 00180002 MapObject id:5003: DEBUG
+MapObject registered: 00180002 MapObject id:5003: DEBUG
+MapObject registered: 00140003 MapObject id:5003: DEBUG
+MapObject registered: 000B0002 MapObject id:5003: DEBUG
+MapObject registered: 000B0002 MapObject id:5003: DEBUG
+MapObject registered: 000B0003 MapObject id:5003: DEBUG
+MapObject registered: 000B0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0003 MapObject id:5003: DEBUG
+MapObject registered: 000C0003 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Southeast of Prontera.csv using format text/csv
+MapObject registered: FFF8FFFB MapObject id:1123: DEBUG
+MapObject registered: FFFC0009 MapObject id:1123: DEBUG
+MapObject registered: 0000FFFD MapObject id:1123: DEBUG
+MapObject registered: FFF8FFFC MapObject id:1127: DEBUG
+MapObject registered: FFFB0009 MapObject id:1127: DEBUG
+MapObject registered: 0000FFFC MapObject id:1127: DEBUG
+MapObject registered: FFF50000 MapObject id:1: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF8FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF9 MapObject id:31: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:31: DEBUG
+MapObject registered: FFFAFFF9 MapObject id:31: DEBUG
+MapObject registered: FFF8FFF6 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF8FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF9FFF9 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF6FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:32: DEBUG
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/adventures-traininsground.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/adventures_trainingsground.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim Dungeon.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim Forest.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim poro island.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Blue Echo.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B1.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B2.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B3.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cognito Dungeon.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/cognito_eastfield.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/cognito_westfield.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Echo of Forests.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/outside_hodehimes.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Culverts.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Northwest Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera South East Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Southwest Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera.csv using format text/csv
+CharacterConfigurationFactory: verbose   Loading character information from: ~/character-template.csv using format text/csv
+Calling loaded-event on factories & managers: verbose   HostContext
+#############################################################################
+Saga Map Server starting on: 25/04/2015 02:03:50 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 9744384
+OS Bit Version: 32 Bit
+#############################################################################
+XmlSections: warning   Section Saga.Manager.ConsoleSettings was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.NetworkSettings was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.WorldTasks was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Database was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Quest was not found using default manager/factory
+XmlSections: warning   Section Saga.Manager.Scripting was not found using default manager/factory
+Calling initialize-event on factories & managers: verbose   HostContext
+Calling beforequery-event on factories & managers: verbose   HostContext
+Calling afterquery-event on factories & managers: verbose   HostContext
+Calling onload-event on factories & managers: verbose   HostContext
+database: ïnfo      Populating database pool with connections
+ScriptCompiler: verbose   Starting to compile scripting assembly: ../Saga.Scripting
+ScriptCompiler: verbose   Generate compile parameters
+ScriptCompiler: ïnfo      Scripts compiled no errors
+ScriptCompiler: warning   scripting assembly was compiled
+ScriptCompiler: verbose   Starting to compile scripting assembly: 158F4F343726CA477234AE4407241009, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Event Manager: verbose   Loading event information from: ~/eventlist.csv using format text/csv
+AdditionFactory: warning   Method not found Saga.Spells.Additions.ADDITION_SPPARTYRECOVERAMOUNT
+AdditionFactory: warning   Method not found Saga.Spells.Additions.ADDITION_MAGICALATTACKMAX
+AdditionFactory: verbose   Loading addition information from: ~/Addition_t.xml using format text/xml
+PortalFactory: verbose   Loading portal information from: ~/portal_data.csv using format text/csv
+SpellFactory: verbose   Loading spell information from: ~/spell_data.xml using format text/xml
+SpellFactory: verbose   Clear method lookup table
+StatusByLevelFactory: verbose   Loading statusbylevel information from: ~/experience.csv using format text/csv
+WarpFactory: verbose   Loading warp information from: ~/warp_data.csv using format text/csv
+ZoneFactory: verbose   Loading zone information from: ~/zone_data.csv using format text/csv
+"Saga.Map.exe",Error,0,"Cannot load heightmap from file: C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/heightmaps\alf_f00.hmap",,,,,,,
+ItemFactory: verbose   Loading item information from: ~/item_data.xml using format text/xml
+WeaponFactory: verbose   Loading weapon information from: ~/weapon_data.csv using format text/csv
+TemplateFactory: verbose   Loading portal information from: ~/npc_templates.csv using format text/csv
+TemplateFactory: verbose   Loading portal information from: ~/item_templates.csv using format text/csv
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Adventurers Training Center.csv using format text/csv
+MapObject registered: FFFE0002 MapObject id:1173: DEBUG
+MapObject registered: 00010002 MapObject id:1174: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1175: DEBUG
+MapObject registered: 0001FFFB MapObject id:1270: DEBUG
+MapObject registered: 00010000 MapObject id:1271: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/adventures_trainingsground.csv using format text/csv
+MapObject registered: 00000002 MapObject id:1145: DEBUG
+MapObject registered: 00040000 MapObject id:1064: DEBUG
+MapObject registered: FFFC0002 MapObject id:1149: DEBUG
+MapObject registered: 00040001 MapObject id:1146: DEBUG
+MapObject registered: FFFFFFFB MapObject id:1063: DEBUG
+MapObject registered: 0004FFFE MapObject id:1139: DEBUG
+MapObject registered: 00040002 MapObject id:1147: DEBUG
+MapObject registered: FFFD0002 MapObject id:1140: DEBUG
+MapObject registered: 00020004 MapObject id:1148: DEBUG
+MapObject registered: 00030004 MapObject id:1213: DEBUG
+MapObject registered: 0003FFFF MapObject id:1213: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim Forest.csv using format text/csv
+MapObject registered: FFFFFFF3 MapObject id:1107: DEBUG
+MapObject registered: FFFFFFF3 MapObject id:1109: DEBUG
+MapObject registered: FFFFFFF4 MapObject id:1235: DEBUG
+MapObject registered: 00010000 MapObject id:1248: DEBUG
+MapObject registered: FFFAFFF8 MapObject id:1309: DEBUG
+MapObject registered: FFFF0007 MapObject id:1310: DEBUG
+MapObject registered: 0009FFF7 MapObject id:1311: DEBUG
+MapObject registered: 00040000 MapObject id:1312: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim Poro Island.csv using format text/csv
+MapObject registered: 0001FFF9 MapObject id:1249: DEBUG
+MapObject registered: 0002FFF9 MapObject id:1108: DEBUG
+MapObject registered: 0002FFF9 MapObject id:1236: DEBUG
+MapObject registered: 0002FFFB MapObject id:1237: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Alfheim.csv using format text/csv
+MapObject registered: 00010000 MapObject id:1015: DEBUG
+MapObject registered: 0002FFFF MapObject id:1016: DEBUG
+MapObject registered: 0001FFFE MapObject id:1017: DEBUG
+MapObject registered: 0001FFFE MapObject id:1017: DEBUG
+MapObject registered: 0001FFFE MapObject id:1018: DEBUG
+MapObject registered: 00000002 MapObject id:1019: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1020: DEBUG
+MapObject registered: 00000002 MapObject id:1101: DEBUG
+MapObject registered: FFFBFFFD MapObject id:1102: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1104: DEBUG
+MapObject registered: 00000000 MapObject id:1105: DEBUG
+MapObject registered: FFFDFFFD MapObject id:1106: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1110: DEBUG
+MapObject registered: FFFAFFFA MapObject id:1111: DEBUG
+MapObject registered: 00010001 MapObject id:1239: DEBUG
+MapObject registered: 00010001 MapObject id:1240: DEBUG
+MapObject registered: 00010001 MapObject id:1241: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1242: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1243: DEBUG
+MapObject registered: FFFCFFFC MapObject id:1244: DEBUG
+MapObject registered: FFFCFFFC MapObject id:1245: DEBUG
+MapObject registered: FFFAFFFD MapObject id:1246: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1247: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1250: DEBUG
+MapObject registered: FFFAFFFA MapObject id:1250: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1250: DEBUG
+MapObject registered: 00020000 MapObject id:1250: DEBUG
+MapObject registered: 00000000 MapObject id:1250: DEBUG
+MapObject registered: 00000003 MapObject id:1250: DEBUG
+MapObject registered: 00010003 MapObject id:1250: DEBUG
+MapObject registered: 00000004 MapObject id:1250: DEBUG
+MapObject registered: 00010001 MapObject id:1250: DEBUG
+MapObject registered: 00030002 MapObject id:1250: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1307: DEBUG
+MapObject registered: 00000000 MapObject id:1308: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1316: DEBUG
+MapObject registered: 0001FFFF MapObject id:1327: DEBUG
+MapObject registered: 0002FFFF MapObject id:1328: DEBUG
+MapObject registered: 0000FFFE MapObject id:1329: DEBUG
+MapObject registered: 0000FFFF MapObject id:1330: DEBUG
+MapObject registered: 0000FFFE MapObject id:1331: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1332: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1333: DEBUG
+MapObject registered: FFFBFFFC MapObject id:1334: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1335: DEBUG
+MapObject registered: FFFAFFFB MapObject id:1336: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito East Field.csv using format text/csv
+MapObject registered: FFF90008 MapObject id:1028: DEBUG
+MapObject registered: FFFC0008 MapObject id:1123: DEBUG
+MapObject registered: FFFB0007 MapObject id:1187: DEBUG
+MapObject registered: FFFA000A MapObject id:1199: DEBUG
+MapObject registered: 00050000 MapObject id:1219: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1232: DEBUG
+MapObject registered: FFFEFFF7 MapObject id:1301: DEBUG
+MapObject registered: FFFC0007 MapObject id:1302: DEBUG
+MapObject registered: 00070001 MapObject id:1303: DEBUG
+MapObject registered: 000D0009 MapObject id:1208: DEBUG
+MapObject registered: 000A0007 MapObject id:1113: DEBUG
+MapObject registered: 0003000B MapObject id:1116: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito Harbor.csv using format text/csv
+MapObject registered: FFFEFFFD MapObject id:1021: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1023: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1025: DEBUG
+MapObject registered: FFFFFFFE MapObject id:1026: DEBUG
+MapObject registered: FFFA0000 MapObject id:1121: DEBUG
+MapObject registered: FFFAFFFC MapObject id:1128: DEBUG
+MapObject registered: FFFE0001 MapObject id:1135: DEBUG
+MapObject registered: FFFD0000 MapObject id:1176: DEBUG
+MapObject registered: FFF8FFFF MapObject id:1178: DEBUG
+MapObject registered: FFF9FFFE MapObject id:1179: DEBUG
+MapObject registered: FFFF0000 MapObject id:1181: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1185: DEBUG
+MapObject registered: FFF90001 MapObject id:1186: DEBUG
+MapObject registered: FFF90001 MapObject id:1188: DEBUG
+MapObject registered: FFF90001 MapObject id:1189: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1190: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1191: DEBUG
+MapObject registered: FFFBFFFD MapObject id:1193: DEBUG
+MapObject registered: FFFEFFFF MapObject id:1194: DEBUG
+MapObject registered: FFF9FFFD MapObject id:1204: DEBUG
+MapObject registered: FFFE0001 MapObject id:1209: DEBUG
+MapObject registered: FFFF0002 MapObject id:1210: DEBUG
+MapObject registered: FFF9FFFD MapObject id:1231: DEBUG
+MapObject registered: FFF8FFFD MapObject id:1296: DEBUG
+MapObject registered: 00000000 MapObject id:1315: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito Town.csv using format text/csv
+MapObject registered: FFFB0000 MapObject id:1022: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1024: DEBUG
+MapObject registered: FFFCFFFD MapObject id:1053: DEBUG
+MapObject registered: FFFCFFFE MapObject id:1054: DEBUG
+MapObject registered: FFFA0001 MapObject id:1057: DEBUG
+MapObject registered: FFFA0001 MapObject id:1058: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1127: DEBUG
+MapObject registered: FFFF0001 MapObject id:1177: DEBUG
+MapObject registered: FFF90000 MapObject id:1180: DEBUG
+MapObject registered: FFFB0001 MapObject id:1182: DEBUG
+MapObject registered: FFF90001 MapObject id:1183: DEBUG
+MapObject registered: FFFB0000 MapObject id:1184: DEBUG
+MapObject registered: FFFB0001 MapObject id:1192: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1196: DEBUG
+MapObject registered: FFFC0000 MapObject id:1197: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1200: DEBUG
+MapObject registered: FFF8FFFE MapObject id:1201: DEBUG
+MapObject registered: FFFDFFFF MapObject id:1202: DEBUG
+MapObject registered: FFFD0001 MapObject id:1203: DEBUG
+MapObject registered: FFF7FFFD MapObject id:1211: DEBUG
+MapObject registered: FFFC0001 MapObject id:1230: DEBUG
+MapObject registered: FFF8FFFD MapObject id:1297: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1317: DEBUG
+MapObject registered: FFFA0000 MapObject id:1319: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1321: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Cognito West Field.csv using format text/csv
+MapObject registered: FFF4FFF3 MapObject id:1112: DEBUG
+MapObject registered: FFF5FFF5 MapObject id:1198: DEBUG
+MapObject registered: FFF6FFF5 MapObject id:1206: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1218: DEBUG
+MapObject registered: FFF5FFF5 MapObject id:1298: DEBUG
+MapObject registered: 0006FFFB MapObject id:1299: DEBUG
+MapObject registered: FFFB0007 MapObject id:1300: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Emir Cave Lv2.csv using format text/csv
+MapObject registered: 00080002 MapObject id:1224: DEBUG
+MapObject registered: 00080002 MapObject id:1225: DEBUG
+MapObject registered: 00080001 MapObject id:1337: DEBUG
+MapObject registered: 00080002 MapObject id:1338: DEBUG
+MapObject registered: 00070002 MapObject id:1342: DEBUG
+MapObject registered: 00070001 MapObject id:1341: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Forest of Echoes.csv using format text/csv
+MapObject registered: FFF50003 MapObject id:1251: DEBUG
+MapObject registered: FFF50003 MapObject id:1252: DEBUG
+MapObject registered: FFF50004 MapObject id:1253: DEBUG
+MapObject registered: FFF40003 MapObject id:1254: DEBUG
+MapObject registered: 0005FFF6 MapObject id:1256: DEBUG
+MapObject registered: FFF50004 MapObject id:1257: DEBUG
+MapObject registered: FFF50004 MapObject id:1258: DEBUG
+MapObject registered: FFF40003 MapObject id:1259: DEBUG
+MapObject registered: FFF50003 MapObject id:1260: DEBUG
+MapObject registered: FFF40003 MapObject id:1261: DEBUG
+MapObject registered: FFF50003 MapObject id:1262: DEBUG
+MapObject registered: FFF50003 MapObject id:1263: DEBUG
+MapObject registered: FFF50004 MapObject id:1264: DEBUG
+MapObject registered: FFF60002 MapObject id:1265: DEBUG
+MapObject registered: FFF60003 MapObject id:1266: DEBUG
+MapObject registered: FFF60003 MapObject id:1267: DEBUG
+MapObject registered: FFF40003 MapObject id:1268: DEBUG
+MapObject registered: FFF60002 MapObject id:1304: DEBUG
+MapObject registered: 0000FFF6 MapObject id:1305: DEBUG
+MapObject registered: 00030001 MapObject id:1306: DEBUG
+MapObject registered: FFF50003 MapObject id:1322: DEBUG
+MapObject registered: FFF50003 MapObject id:1323: DEBUG
+MapObject registered: FFF50003 MapObject id:1324: DEBUG
+MapObject registered: FFF50003 MapObject id:1325: DEBUG
+MapObject registered: FFF50004 MapObject id:1326: DEBUG
+MapObject registered: FFF60003 MapObject id:1343: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/hodehimes.csv using format text/csv
+MapObject registered: FFFEFFFD MapObject id:1000: DEBUG
+MapObject registered: FFFEFFFF MapObject id:1001: DEBUG
+MapObject registered: FFFC0000 MapObject id:1002: DEBUG
+MapObject registered: FFFC0003 MapObject id:1003: DEBUG
+MapObject registered: 00020001 MapObject id:1004: DEBUG
+MapObject registered: 0000FFFF MapObject id:1005: DEBUG
+MapObject registered: FFFDFFFE MapObject id:1049: DEBUG
+MapObject registered: FFFC0000 MapObject id:1059: DEBUG
+MapObject registered: FFFFFFFC MapObject id:1062: DEBUG
+MapObject registered: FFFD0000 MapObject id:1065: DEBUG
+MapObject registered: 00000002 MapObject id:1067: DEBUG
+MapObject registered: 00010002 MapObject id:1165: DEBUG
+MapObject registered: FFFF0000 MapObject id:1166: DEBUG
+MapObject registered: FFFC0001 MapObject id:1167: DEBUG
+MapObject registered: 0000FFFE MapObject id:1168: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1170: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1226: DEBUG
+MapObject registered: FFFC0000 MapObject id:1228: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1272: DEBUG
+MapObject registered: FFFD0000 MapObject id:1273: DEBUG
+MapObject registered: 00010000 MapObject id:1274: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1313: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Northwest of Prontera.csv using format text/csv
+MapObject registered: 000B0002 MapObject id:1092: DEBUG
+MapObject registered: 0007FFF5 MapObject id:1095: DEBUG
+MapObject registered: 0000FFFC MapObject id:1097: DEBUG
+MapObject registered: 0001000C MapObject id:1098: DEBUG
+MapObject registered: 00070004 MapObject id:1217: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1292: DEBUG
+MapObject registered: FFF80006 MapObject id:1293: DEBUG
+MapObject registered: 0004FFFF MapObject id:1294: DEBUG
+MapObject registered: 000A000A MapObject id:1295: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/outside_hodehimes.csv using format text/csv
+MapObject registered: FFFCFFFE MapObject id:1060: DEBUG
+MapObject registered: FFF8FFF4 MapObject id:1066: DEBUG
+MapObject registered: FFFFFFFF MapObject id:1143: DEBUG
+MapObject registered: 00030009 MapObject id:1144: DEBUG
+MapObject registered: FFFCFFFE MapObject id:1171: DEBUG
+MapObject registered: FFF90009 MapObject id:1214: DEBUG
+MapObject registered: FFF8FFF5 MapObject id:1275: DEBUG
+MapObject registered: FFF8000A MapObject id:1276: DEBUG
+MapObject registered: 0008FFF9 MapObject id:1277: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1278: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Prontera.csv using format text/csv
+MapObject registered: 00110002 MapObject id:1006: DEBUG
+MapObject registered: 00150005 MapObject id:1007: DEBUG
+MapObject registered: 00170003 MapObject id:1008: DEBUG
+MapObject registered: 00140009 MapObject id:1009: DEBUG
+MapObject registered: 00120002 MapObject id:1010: DEBUG
+MapObject registered: 00120004 MapObject id:1011: DEBUG
+MapObject registered: 00120003 MapObject id:1012: DEBUG
+MapObject registered: 00100004 MapObject id:1013: DEBUG
+MapObject registered: FFFF0003 MapObject id:1014: DEBUG
+MapObject registered: 00130003 MapObject id:1050: DEBUG
+MapObject registered: 00130003 MapObject id:1051: DEBUG
+MapObject registered: 00150002 MapObject id:1055: DEBUG
+MapObject registered: 00140002 MapObject id:1056: DEBUG
+MapObject registered: 00160004 MapObject id:1069: DEBUG
+MapObject registered: 00160004 MapObject id:1070: DEBUG
+MapObject registered: 00110003 MapObject id:1071: DEBUG
+MapObject registered: 000A0003 MapObject id:1072: DEBUG
+MapObject registered: 00030003 MapObject id:1073: DEBUG
+MapObject registered: 00060003 MapObject id:1074: DEBUG
+MapObject registered: 00100003 MapObject id:1075: DEBUG
+MapObject registered: 00130003 MapObject id:1076: DEBUG
+MapObject registered: 00130003 MapObject id:1077: DEBUG
+MapObject registered: 00160004 MapObject id:1078: DEBUG
+MapObject registered: 00120003 MapObject id:1083: DEBUG
+MapObject registered: 000C0001 MapObject id:1084: DEBUG
+MapObject registered: 00050002 MapObject id:1085: DEBUG
+MapObject registered: 00140009 MapObject id:1090: DEBUG
+MapObject registered: 00140009 MapObject id:1091: DEBUG
+MapObject registered: 00180003 MapObject id:1093: DEBUG
+MapObject registered: 00180003 MapObject id:1094: DEBUG
+MapObject registered: 00140000 MapObject id:1096: DEBUG
+MapObject registered: 00010005 MapObject id:1151: DEBUG
+MapObject registered: 00160001 MapObject id:1156: DEBUG
+MapObject registered: 00150004 MapObject id:1158: DEBUG
+MapObject registered: 00130002 MapObject id:1159: DEBUG
+MapObject registered: 00160002 MapObject id:1160: DEBUG
+MapObject registered: 00140005 MapObject id:1161: DEBUG
+MapObject registered: 00140002 MapObject id:1162: DEBUG
+MapObject registered: 00140004 MapObject id:1163: DEBUG
+MapObject registered: 00100003 MapObject id:1223: DEBUG
+MapObject registered: 00150001 MapObject id:1229: DEBUG
+MapObject registered: 000A0003 MapObject id:1279: DEBUG
+MapObject registered: 00120003 MapObject id:1280: DEBUG
+MapObject registered: 00140009 MapObject id:1281: DEBUG
+MapObject registered: 00180002 MapObject id:1282: DEBUG
+MapObject registered: FFF7FFF9 MapObject id:1283: DEBUG
+MapObject registered: 00170003 MapObject id:1314: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Southeast of Prontera.csv using format text/csv
+MapObject registered: FFF70005 MapObject id:1068: DEBUG
+MapObject registered: FFF9FFF5 MapObject id:1079: DEBUG
+MapObject registered: FFFFFFFE MapObject id:1080: DEBUG
+MapObject registered: 0005FFFD MapObject id:1081: DEBUG
+MapObject registered: FFFFFFF9 MapObject id:1082: DEBUG
+MapObject registered: 0001FFF8 MapObject id:1089: DEBUG
+MapObject registered: FFF70004 MapObject id:1099: DEBUG
+MapObject registered: FFF3FFF4 MapObject id:1152: DEBUG
+MapObject registered: FFF3000B MapObject id:1153: DEBUG
+MapObject registered: FFF80005 MapObject id:1164: DEBUG
+MapObject registered: FFFD0008 MapObject id:1215: DEBUG
+MapObject registered: FFF7FFF9 MapObject id:1283: DEBUG
+MapObject registered: 0003FFF5 MapObject id:1284: DEBUG
+MapObject registered: 0000FFFF MapObject id:1285: DEBUG
+MapObject registered: 000A0007 MapObject id:1286: DEBUG
+MapObject registered: FFF70005 MapObject id:1287: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/npc-spawns/Southwest of Prontera.csv using format text/csv
+MapObject registered: FFF8FFFE MapObject id:1154: DEBUG
+MapObject registered: FFFA0006 MapObject id:1155: DEBUG
+MapObject registered: 00050002 MapObject id:1216: DEBUG
+MapObject registered: FFF6FFFA MapObject id:1288: DEBUG
+MapObject registered: 0005FFFD MapObject id:1290: DEBUG
+MapObject registered: FFFA0007 MapObject id:1289: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Adventurers Training Center.csv using format text/csv
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00000002 MapObject id:47: DEBUG
+MapObject registered: 00010000 MapObject id:1143: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/adventures_trainingsground.csv using format text/csv
+MapObject registered: 00010004 MapObject id:1142: DEBUG
+MapObject registered: 00040001 MapObject id:1142: DEBUG
+MapObject registered: FFFF0000 MapObject id:1142: DEBUG
+MapObject registered: 0000FFFA MapObject id:48: DEBUG
+MapObject registered: 00030004 MapObject id:5000: DEBUG
+MapObject registered: 00030004 MapObject id:5000: DEBUG
+MapObject registered: 0000FFF9 MapObject id:9: DEBUG
+MapObject registered: 0000FFF9 MapObject id:10: DEBUG
+MapObject registered: 0000FFF9 MapObject id:11: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Alfheim.csv using format text/csv
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito East Field.csv using format text/csv
+MapObject registered: FFFFFFF6 MapObject id:1123: DEBUG
+MapObject registered: 00010000 MapObject id:1123: DEBUG
+MapObject registered: FFFC0007 MapObject id:1123: DEBUG
+MapObject registered: FFFFFFF6 MapObject id:1131: DEBUG
+MapObject registered: 00010000 MapObject id:1131: DEBUG
+MapObject registered: FFFC0008 MapObject id:1131: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito Harbor.csv using format text/csv
+MapObject registered: FFFF0002 MapObject id:35: DEBUG
+MapObject registered: FFFF0002 MapObject id:35: DEBUG
+MapObject registered: FFFF0002 MapObject id:45: DEBUG
+MapObject registered: FFFE0003 MapObject id:57: DEBUG
+MapObject registered: FFFE0000 MapObject id:1123: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1123: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFF MapObject id:1126: DEBUG
+MapObject registered: FFFE0000 MapObject id:1131: DEBUG
+MapObject registered: FFFCFFFF MapObject id:1131: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1131: DEBUG
+MapObject registered: FFFBFFFE MapObject id:1131: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFF MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5005: DEBUG
+MapObject registered: FFFEFFFF MapObject id:5005: DEBUG
+MapObject registered: FFFF0000 MapObject id:5005: DEBUG
+MapObject registered: FFFF0000 MapObject id:5005: DEBUG
+MapObject registered: FFFF0001 MapObject id:5005: DEBUG
+MapObject registered: FFFF0001 MapObject id:5005: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito Town.csv using format text/csv
+MapObject registered: FFFC0001 MapObject id:1123: DEBUG
+MapObject registered: FFFAFFFD MapObject id:1123: DEBUG
+MapObject registered: FFF90000 MapObject id:1123: DEBUG
+MapObject registered: FFF80001 MapObject id:1123: DEBUG
+MapObject registered: FFFC0001 MapObject id:1131: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1131: DEBUG
+MapObject registered: FFF90000 MapObject id:1131: DEBUG
+MapObject registered: FFF80001 MapObject id:1131: DEBUG
+MapObject registered: FFFB0002 MapObject id:38: DEBUG
+MapObject registered: FFFAFFFE MapObject id:1126: DEBUG
+MapObject registered: FFFAFFFF MapObject id:1126: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Cognito West Field.csv using format text/csv
+MapObject registered: FFF7FFF6 MapObject id:1123: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1123: DEBUG
+MapObject registered: FFFF0008 MapObject id:1123: DEBUG
+MapObject registered: FFF7FFF7 MapObject id:1131: DEBUG
+MapObject registered: FFFBFFFB MapObject id:1131: DEBUG
+MapObject registered: FFFF0008 MapObject id:1131: DEBUG
+MapObject registered: FFFB0009 MapObject id:37: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/hodehimes.csv using format text/csv
+MapObject registered: FFFEFFFF MapObject id:13: DEBUG
+MapObject registered: 0000FFFF MapObject id:15: DEBUG
+MapObject registered: 00010000 MapObject id:1123: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1123: DEBUG
+MapObject registered: FFFF0000 MapObject id:1123: DEBUG
+MapObject registered: FFFC0000 MapObject id:1123: DEBUG
+MapObject registered: 00010001 MapObject id:1124: DEBUG
+MapObject registered: 00010000 MapObject id:1125: DEBUG
+MapObject registered: FFFFFFFD MapObject id:1125: DEBUG
+MapObject registered: FFFE0000 MapObject id:1125: DEBUG
+MapObject registered: FFFC0000 MapObject id:1125: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: 0001FFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFF MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFC MapObject id:5000: DEBUG
+MapObject registered: FFFFFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFE MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFEFFFD MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0000 MapObject id:5000: DEBUG
+MapObject registered: FFFD0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFC0000 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: FFFD0002 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00010001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00020001 MapObject id:5000: DEBUG
+MapObject registered: 00010000 MapObject id:5001: DEBUG
+MapObject registered: FFFFFFFE MapObject id:5001: DEBUG
+MapObject registered: FFFFFFFE MapObject id:5001: DEBUG
+MapObject registered: 00020001 MapObject id:5001: DEBUG
+MapObject registered: 00020002 MapObject id:5001: DEBUG
+MapObject registered: 00020001 MapObject id:5001: DEBUG
+MapObject registered: 00020002 MapObject id:5001: DEBUG
+MapObject registered: FFFDFFFF MapObject id:5002: DEBUG
+MapObject registered: FFFDFFFF MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+MapObject registered: FFFC0000 MapObject id:5002: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Northwest of Prontera.csv using format text/csv
+MapObject registered: 0009000A MapObject id:1123: DEBUG
+MapObject registered: FFFDFFFB MapObject id:1123: DEBUG
+MapObject registered: FFF70008 MapObject id:1123: DEBUG
+MapObject registered: FFF70007 MapObject id:1127: DEBUG
+MapObject registered: FFFCFFFB MapObject id:1127: DEBUG
+MapObject registered: 0009000A MapObject id:1127: DEBUG
+MapObject registered: 000A0003 MapObject id:5: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/outside_hodehimes.csv using format text/csv
+MapObject registered: FFFFFFFB MapObject id:16: DEBUG
+MapObject registered: FFFC0002 MapObject id:1125: DEBUG
+MapObject registered: FFFC0002 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: FFF80009 MapObject id:1123: DEBUG
+MapObject registered: 000C0003 MapObject id:14: DEBUG
+MapObject registered: FFFCFFFE MapObject id:28: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Prontera.csv using format text/csv
+MapObject registered: 00120002 MapObject id:3: DEBUG
+MapObject registered: 00120002 MapObject id:1123: DEBUG
+MapObject registered: 00130005 MapObject id:1123: DEBUG
+MapObject registered: 00160004 MapObject id:1123: DEBUG
+MapObject registered: 00180003 MapObject id:1123: DEBUG
+MapObject registered: 00150001 MapObject id:1123: DEBUG
+MapObject registered: 000D0004 MapObject id:1123: DEBUG
+MapObject registered: 00120003 MapObject id:1124: DEBUG
+MapObject registered: 00120002 MapObject id:1127: DEBUG
+MapObject registered: 00130005 MapObject id:1127: DEBUG
+MapObject registered: 00160004 MapObject id:1127: DEBUG
+MapObject registered: 00180003 MapObject id:1127: DEBUG
+MapObject registered: 00150001 MapObject id:1127: DEBUG
+MapObject registered: 000D0004 MapObject id:1127: DEBUG
+MapObject registered: 00110004 MapObject id:5000: DEBUG
+MapObject registered: 00110004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120004 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00120002 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00130003 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00150005 MapObject id:5000: DEBUG
+MapObject registered: 00110003 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00120002 MapObject id:5003: DEBUG
+MapObject registered: 00120002 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00120003 MapObject id:5003: DEBUG
+MapObject registered: 00130003 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00140002 MapObject id:5003: DEBUG
+MapObject registered: 00140002 MapObject id:5003: DEBUG
+MapObject registered: 00140003 MapObject id:5003: DEBUG
+MapObject registered: 00130004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00140004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00150004 MapObject id:5003: DEBUG
+MapObject registered: 00160004 MapObject id:5003: DEBUG
+MapObject registered: 00160004 MapObject id:5003: DEBUG
+MapObject registered: 00150003 MapObject id:5003: DEBUG
+MapObject registered: 00150003 MapObject id:5003: DEBUG
+MapObject registered: 00150002 MapObject id:5003: DEBUG
+MapObject registered: 00160002 MapObject id:5003: DEBUG
+MapObject registered: 00150002 MapObject id:5003: DEBUG
+MapObject registered: 00160002 MapObject id:5003: DEBUG
+MapObject registered: 00180002 MapObject id:5003: DEBUG
+MapObject registered: 00180002 MapObject id:5003: DEBUG
+MapObject registered: 00140003 MapObject id:5003: DEBUG
+MapObject registered: 000B0002 MapObject id:5003: DEBUG
+MapObject registered: 000B0002 MapObject id:5003: DEBUG
+MapObject registered: 000B0003 MapObject id:5003: DEBUG
+MapObject registered: 000B0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0003 MapObject id:5003: DEBUG
+MapObject registered: 000C0003 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0004 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+MapObject registered: 000C0002 MapObject id:5003: DEBUG
+WorldObjectsFactory (single): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/item-spawns/Southeast of Prontera.csv using format text/csv
+MapObject registered: FFF8FFFB MapObject id:1123: DEBUG
+MapObject registered: FFFC0009 MapObject id:1123: DEBUG
+MapObject registered: 0000FFFD MapObject id:1123: DEBUG
+MapObject registered: FFF8FFFC MapObject id:1127: DEBUG
+MapObject registered: FFFB0009 MapObject id:1127: DEBUG
+MapObject registered: 0000FFFC MapObject id:1127: DEBUG
+MapObject registered: FFF50000 MapObject id:1: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF8FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:2: DEBUG
+MapObject registered: FFF9FFF9 MapObject id:31: DEBUG
+MapObject registered: FFF9FFF8 MapObject id:31: DEBUG
+MapObject registered: FFFAFFF9 MapObject id:31: DEBUG
+MapObject registered: FFF8FFF6 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF8FFF5 MapObject id:31: DEBUG
+MapObject registered: FFF9FFF9 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF6FFF6 MapObject id:32: DEBUG
+MapObject registered: FFF7FFF5 MapObject id:32: DEBUG
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/adventures-traininsground.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/adventures_trainingsground.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim Dungeon.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim Forest.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Alfheim poro island.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Blue Echo.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B1.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B2.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cave of Emir B3.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Cognito Dungeon.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/cognito_eastfield.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/cognito_westfield.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Echo of Forests.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/outside_hodehimes.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Culverts.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Northwest Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera South East Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera Southwest Field.csv using format text/csv
+WorldObjectsFactory (multi): verbose   Loading world objects from C:\Users\Administrator\Desktop\SagaRevised-master\Binary\../Data/mob-spawns/Prontera.csv using format text/csv
+CharacterConfigurationFactory: verbose   Loading character information from: ~/character-template.csv using format text/csv
+Calling loaded-event on factories & managers: verbose   HostContext
+Database: error     player skill-data of player with id 19 is missing
+Database: error     player specialskill-data of player with id 19 is missing
+Database: error     player skill-data of player with id 19 is missing
+Database: error     Unable to cast object of type 'System.Byte[]' to type 'System.IConvertible'.
+Database: error     Unable to cast object of type 'System.Byte[]' to type 'System.IConvertible'.
+Network: Connection accepted from: 127.0.0.1:49562
+Database: error     Unable to cast object of type 'System.Byte[]' to type 'System.IConvertible'.
+"Saga.Map.exe",Warning,0,"System.NullReferenceException: Object reference not set to an instance of an object.
+   at Saga.Map.Client.Client.WorldConnectionError() in c:\Users\Administrator\Desktop\SagaRevised-master\Saga.Map\Netwok\Client\Client-Core.cs:line 558
+   at Saga.Map.Client.Client.Login(CMSG_LOGIN cpkt) in c:\Users\Administrator\Desktop\SagaRevised-master\Saga.Map\Netwok\Client\Client-Core.cs:line 137",,,,,,,
+Network: Authentication server disconnected

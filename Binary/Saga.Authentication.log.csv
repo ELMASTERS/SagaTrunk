@@ -1,0 +1,132 @@
+#############################################################################
+Saga Authtentication Server starting on: 25/04/2015 12:35:32 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 16400384
+OS Bit Version: 64 Bit
+#############################################################################
+Calling initialize-event on factories & managers: verbose   HostContext
+Calling beforequery-event on factories & managers: verbose   HostContext
+Calling afterquery-event on factories & managers: verbose   HostContext
+Calling onload-event on factories & managers: verbose   HostContext
+database: ïnfo      Populating database pool with connections
+Calling loaded-event on factories & managers: verbose   HostContext
+"Saga.Authentication.exe",Information,0,"Client create starting timeout session",,,,,,,
+Network: Connection accepted from: 127.0.0.1:49538
+"Saga.Authentication.exe",Warning,0,"Unsupported packet found with id: FF01",,,,,,,
+Network: Connection accepted from: 127.0.0.1:49539
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 1",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 250ms",,,,,,,
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 2",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 0ms",,,,,,,
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 3",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 281ms",,,,,,,
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 4",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 172ms",,,,,,,
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 5",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 1422ms",,,,,,,
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 5",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 1500ms",,,,,,,
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 6",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 0ms",,,,,,,
+#############################################################################
+Saga Authtentication Server starting on: 25/04/2015 01:01:42 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 16408576
+OS Bit Version: 64 Bit
+#############################################################################
+Calling initialize-event on factories & managers: verbose   HostContext
+Calling beforequery-event on factories & managers: verbose   HostContext
+Calling afterquery-event on factories & managers: verbose   HostContext
+Calling onload-event on factories & managers: verbose   HostContext
+database: ïnfo      Populating database pool with connections
+Calling loaded-event on factories & managers: verbose   HostContext
+"Saga.Authentication.exe",Information,0,"Client create starting timeout session",,,,,,,
+Network: Connection accepted from: 127.0.0.1:49547
+"Saga.Authentication.exe",Warning,0,"Unsupported packet found with id: FF01",,,,,,,
+Network: Connection accepted from: 127.0.0.1:49548
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 1",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 1422ms",,,,,,,
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 1",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 328ms",,,,,,,
+#############################################################################
+Saga Authtentication Server starting on: 25/04/2015 02:02:29 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 16408576
+OS Bit Version: 64 Bit
+#############################################################################
+Calling initialize-event on factories & managers: verbose   HostContext
+Calling beforequery-event on factories & managers: verbose   HostContext
+Calling afterquery-event on factories & managers: verbose   HostContext
+Calling onload-event on factories & managers: verbose   HostContext
+database: ïnfo      Populating database pool with connections
+Calling loaded-event on factories & managers: verbose   HostContext
+Network: Connection accepted from: 127.0.0.1:49553
+"Saga.Authentication.exe",Information,0,"Client create starting timeout session",,,,,,,
+Network: Connection accepted from: 127.0.0.1:49555
+"Saga.Authentication.exe",Error,0,"Session was not found: 0",,,,,,,
+#############################################################################
+Saga Authtentication Server starting on: 25/04/2015 02:03:56 a.m.
+OS Information: Microsoft Windows NT 6.1.7601 Service Pack 1
+Number of Processors: 1
+CLR Version: 2.0.50727.5485
+Working set: 16412672
+OS Bit Version: 64 Bit
+#############################################################################
+Calling initialize-event on factories & managers: verbose   HostContext
+Calling beforequery-event on factories & managers: verbose   HostContext
+Calling afterquery-event on factories & managers: verbose   HostContext
+Calling onload-event on factories & managers: verbose   HostContext
+database: ïnfo      Populating database pool with connections
+Calling loaded-event on factories & managers: verbose   HostContext
+Network: Connection accepted from: 127.0.0.1:49559
+"Saga.Authentication.exe",Information,0,"Client create starting timeout session",,,,,,,
+Network: Connection accepted from: 127.0.0.1:49561
+"Saga.Authentication.exe",Warning,0,"Unsupported packet found with id: FF01",,,,,,,
+"Saga.Authentication.exe",Error,0,"Request character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Start waiting for character list",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received character list from world server: 1 session 1",,,,,,,
+"Saga.Authentication.exe",Error,0,"Clear previous results",,,,,,,
+"Saga.Authentication.exe",Error,0,"Ready receiving",,,,,,,
+"Saga.Authentication.exe",Error,0,"Received successfull awner after 31ms",,,,,,,

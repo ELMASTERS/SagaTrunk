@@ -184,3 +184,5 @@ FakesAssemblies/
 
 # Custom ignored file type
 *.bak
+
+*.db

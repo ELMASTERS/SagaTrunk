@@ -775,6 +775,7 @@ namespace Saga.Map.Data.Mysql
         const string _query_64 = "UPDATE `list_learnedskills` SET `SkillId`=?NewSkillId, `SkillExp`=?SkillExp WHERE `CharId`=?CharId AND `Job`=?Job AND `SkillId`=?SkillId;";
         const string _query_65 = "SELECT `SkillId` FROM `list_learnedskills` WHERE `CharId`=?CharId";
         const string _query_66 = "UPDATE `list_specialskills` SET `Skills`=?Skills WHERE `CharId`=?CharId LIMIT 1";
+        const string _query_90 = "UPDATE `list_learnedskills` SET `SkillId`=?SkillId WHERE `CharId`=?CharId LIMIT 1";
         const string _query_67 = "SELECT `Skills` FROM `list_specialskills` WHERE `CharId`=?CharId";
         const string _query_68 = "INSERT INTO `list_weaponary` (`CharId`,`Weaponary`,`UnlockedWeaponCount`,`PrimairyWeapon`,`SecondaryWeapoin`,`ActiveWeaponIndex`) VALUES (?CharId, ?Weaponary, ?UnlockedWeaponCount,?PrimairyWeapon,?SecondaryWeapon,?ActiveWeaponIndex); ";
         const string _query_69 = "SELECT * FROM `list_weaponary` WHERE `CharId`=?CharId";
@@ -793,6 +794,7 @@ namespace Saga.Map.Data.Mysql
         const string _query_81 = "SELECT COUNT(*) FROM `list_storage` WHERE `CharId`=?CharId;";
         const string _query_82 = "SELECT COUNT(*) FROM `list_weaponary` WHERE `CharId`=?CharId;";
         const string _query_83 = "SELECT COUNT(*) FROM `list_zoneinformation` WHERE `CharId`=?CharId;";
+        const string _query_91 = "SELECT COUNT(*) FROM `list_learnedskills` WHERE `CharId`=?CharId";
 
         const string _query_84 = "INSERT INTO `characters` (`UserId`,`CharName`,`UppercasedCharName`,`CharFace`,`CharId`,`Cexp`, `Jexp`, `Job`, `Map`, `HP`, `SP`, LP, LC, `Position.x`, `Position.y`, `Position.z`, `Saveposition.x`, `Saveposition.y`, `Saveposition.z`, `Saveposition.map`, `Stats.Str`, `Stats.Dex`, `Stats.Int`, `Stats.Con`, `Stats.Luc`, `Stats.Pending`, `Rufi`) VALUES (?UserId,?CharName,?UppercasedCharName,?CharFace,?CharId, ?Cexp, ?Jexp, ?Job, ?Map, ?HP, ?SP,?LP, ?LC, ?Posx, ?Posy, ?Posz, ?Savex, ?Savey, ?Savez, ?Savemap, ?Str, ?Dex, ?Int, ?Con, ?Luc, ?Pending, ?Rufi);";
         const string _query_85 = "INSERT INTO `characters` (`UserId`,`CharName`,`UppercasedCharName`,`CharFace`,`Cexp`, `Jexp`, `Job`, `Map`, `HP`, `SP`, LP, LC, `Position.x`, `Position.y`, `Position.z`, `Saveposition.x`, `Saveposition.y`, `Saveposition.z`, `Saveposition.map`, `Stats.Str`, `Stats.Dex`, `Stats.Int`, `Stats.Con`, `Stats.Luc`, `Stats.Pending`, `Rufi`) VALUES (?UserId,?CharName,?UppercasedCharName,?CharFace,?Cexp, ?Jexp, ?Job, ?Map, ?HP, ?SP,?LP, ?LC, ?Posx, ?Posy, ?Posz, ?Savex, ?Savey, ?Savez, ?Savemap, ?Str, ?Dex, ?Int, ?Con, ?Luc, ?Pending, ?Rufi);";
@@ -825,7 +827,8 @@ namespace Saga.Map.Data.Mysql
                 SaveWeaponsEx(connection, dbq);         //Save weapon information
                 SaveZoneEx(connection, dbq);            //Save zone information
                 SaveQuestEx(connection, dbq);           //Save quest information
-                SaveSpecialSkillsEx(connection, dbq);   //Save special skill information                               
+                SaveSpecialSkillsEx(connection, dbq);   //Save special skill information  
+                SaveSkillsEx(connection, dbq);   //Save learned skill information [DanielArt]            
                                               
                 transaction.Commit();
                 return true;
@@ -875,6 +878,7 @@ namespace Saga.Map.Data.Mysql
                              & LoadQuestEx(connection, dbq, continueOnError)          //Load quest information
                              & LoadSkillsEx(connection, dbq, continueOnError)         //Load normal skills
                              & LoadSpecialSkillsEx(connection, dbq, continueOnError)  //Load special skill information
+                             & LoadSkillsEx(connection, dbq, continueOnError)  //Load learned skill information
                              & LoadFriendlistEx(connection, dbq)                      //Load friendlist information
                              & LoadBlacklistEx(connection, dbq);                      //Load blacklist information
 
@@ -926,6 +930,7 @@ namespace Saga.Map.Data.Mysql
                 if (!ExistsZoneEx(connection, dbq)) InsertZoneEx(connection, dbq);
                 if (!ExistsQuestEx(connection, dbq)) InsertQuestEx(connection, dbq);
                 if (!ExistsSpecialSkillsEx(connection, dbq)) InsertSpecialSkillsEx(connection, dbq);
+                if (!ExistsSkillsEx(connection, dbq)) InsertNewSkill(connection, dbq);
 
                 transaction.Commit();
                 return true;
@@ -977,6 +982,7 @@ namespace Saga.Map.Data.Mysql
                              & InsertZoneEx(connection, dbq)
                              & InsertQuestEx(connection, dbq)
                              & InsertSpecialSkillsEx(connection, dbq);
+                             & InsertNewSkill(connection, dbq);
 
                 transaction.Commit();
                 return success;
